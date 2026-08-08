@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight, Clock, Search } from 'lucide-react';
 import { blogPosts } from '../data/posts';
-import blogMediterranean from '../assets/blog-mediterranean.png';
 
 type Category = 'hepsi' | 'yazı' | 'video' | 'rehber';
 
@@ -103,7 +102,7 @@ export const NutritionGuide: React.FC = () => {
                 >
                   <Link to={`/beslenme-rehberi/${post.slug}`} className="guide-card__img-link" aria-label={post.title}>
                     <div className="guide-card__img">
-                      <img src={blogMediterranean} alt={post.imageAlt} />
+                      <img src={post.image} alt={post.imageAlt} />
                       <span className="guide-card__cat-badge">{post.category}</span>
                     </div>
                   </Link>

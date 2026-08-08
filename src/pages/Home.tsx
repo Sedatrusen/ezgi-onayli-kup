@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import heroImg from '../assets/hero.png';
 import ezgiPortrait from '../assets/ezgi-portrait.png';
-import blogMediterranean from '../assets/blog-mediterranean.png';
+import faceToFace from '../assets/face-to-face.png';
 import onlineConsulting from '../assets/online-consulting.png';
 import { blogPosts } from '../data/posts';
 
@@ -230,7 +230,7 @@ export const Home: React.FC = () => {
               </div>
               <div className="consulting-card__img">
                 <img
-                  src={ezgiPortrait}
+                  src={faceToFace}
                   alt="Yüz yüze danışmanlık — Yalova kliniği"
                 />
               </div>
@@ -298,7 +298,7 @@ export const Home: React.FC = () => {
               <article key={post.id} className="blog-card">
                 <Link to={`/beslenme-rehberi/${post.slug}`} className="blog-card__img-link" aria-label={post.title}>
                   <div className="blog-card__img">
-                    <img src={blogMediterranean} alt={post.imageAlt} />
+                    <img src={post.image} alt={post.imageAlt} />
                   </div>
                 </Link>
                 <div className="blog-card__body">

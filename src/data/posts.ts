@@ -1,4 +1,8 @@
-// Blog posts data
+import blogMediterranean from '../assets/blog-mediterranean.png';
+import blogWeight from '../assets/blog-weight.png';
+import blogProtein from '../assets/blog-protein.png';
+import blogWater from '../assets/blog-water.png';
+
 export interface BlogPost {
   id: string;
   slug: string;
@@ -8,6 +12,7 @@ export interface BlogPost {
   category: 'yazı' | 'video' | 'rehber';
   readTime: number;
   publishedAt: string;
+  image: string;
   imageAlt: string;
 }
 
@@ -45,6 +50,7 @@ Akdeniz tipi beslenmenin en önemli özelliklerinden biri sürdürülebilirliği
     category: 'yazı',
     readTime: 5,
     publishedAt: '2025-03-15',
+    image: blogMediterranean,
     imageAlt: 'Akdeniz tipi beslenme yiyecekleri',
   },
   {
@@ -72,12 +78,13 @@ Pek çok yeme davranışı zamanla otomatikleşir. Bu otomatik kalıpları fark 
     category: 'yazı',
     readTime: 6,
     publishedAt: '2025-04-02',
+    image: blogWeight,
     imageAlt: 'Dikkatli yeme ve zihin bağlantısı',
   },
   {
     id: '3',
     slug: 'gunluk-su-ihtiyaci',
-    title: 'Günlük Su Tüketiminiz Yeterli mi?',
+    title: 'Günlük Ne Kadar Su İçmeliyiz?',
     excerpt: 'Su, vücudumuzun temel yapı taşıdır. Yeterli su tüketimi metabolizma, enerji düzeyi ve genel sağlık için kritik önemdedir. Peki gerçekten ne kadar su içmeliyiz?',
     content: `
 Su, insan vücudunun yaklaşık %60'ını oluşturur ve neredeyse tüm fizyolojik süreçlerde görev alır.
@@ -102,12 +109,13 @@ Günlük su tüketiminizi artırmak için pratik yöntemler ve su tüketim alı�
     category: 'yazı',
     readTime: 4,
     publishedAt: '2025-04-20',
+    image: blogWater,
     imageAlt: 'Su ve hidrasyon',
   },
   {
     id: '4',
     slug: 'protein-kaynaklari',
-    title: 'Bitkisel ve Hayvansal Protein Kaynakları',
+    title: 'Protein Kaynakları Nelerdir?',
     excerpt: 'Protein, kasların, enzimlerin ve hormonların yapı taşıdır. Beslenmenizde kaliteli protein kaynaklarını doğru dengede yer vermek, genel sağlığınız için büyük önem taşır.',
     content: `
 Proteinler, amino asitlerden oluşan ve vücudun temel yapı taşlarından birini oluşturan makro besin öğeleridir.
@@ -129,6 +137,7 @@ Protein ihtiyacını karşılamak için tek bir kaynağa bağlı kalmak yerine, 
     category: 'yazı',
     readTime: 5,
     publishedAt: '2025-05-08',
+    image: blogProtein,
     imageAlt: 'Protein kaynakları',
   },
   {
@@ -156,6 +165,7 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
     category: 'yazı',
     readTime: 7,
     publishedAt: '2025-06-01',
+    image: blogWeight,
     imageAlt: 'Sürdürülebilir beslenme',
   },
 ];

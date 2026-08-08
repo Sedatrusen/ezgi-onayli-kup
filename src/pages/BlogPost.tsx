@@ -3,7 +3,6 @@ import { Link, useParams, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
 import { blogPosts } from '../data/posts';
-import blogMediterranean from '../assets/blog-mediterranean.png';
 
 export const BlogPost: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -71,7 +70,7 @@ export const BlogPost: React.FC = () => {
 
       {/* Hero Image */}
       <div className="post-hero">
-        <img src={blogMediterranean} alt={post.imageAlt} className="post-hero-img" />
+        <img src={post.image} alt={post.imageAlt} className="post-hero-img" />
         <div className="post-hero-overlay" aria-hidden="true" />
       </div>
 
