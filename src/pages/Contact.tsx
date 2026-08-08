@@ -101,7 +101,7 @@ export const Contact: React.FC = () => {
               </a>
 
               <a
-                href="https://instagram.com/diyetisyenezgionaylikup"
+                href="https://www.instagram.com/diyetisyenezgionayli/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-method"
@@ -112,7 +112,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <strong>Instagram</strong>
-                  <span>@diyetisyenezgionaylikup</span>
+                  <span>@diyetisyenezgionayli</span>
                 </div>
               </a>
             </div>

@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="footer__socials">
               <a
-                href="https://instagram.com/diyetisyenezgionaylikup"
+                href="https://www.instagram.com/diyetisyenezgionayli/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
