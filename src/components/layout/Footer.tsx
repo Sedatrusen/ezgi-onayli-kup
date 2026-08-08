@@ -15,7 +15,13 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="footer__brand">
             <div className="footer__logo">
-              <img src={logoImg} alt="Diyetisyen Ezgi Onaylı Küp" className="footer__logo-img" />
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
+                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.2"/>
+                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.5"/>
+                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              </svg>
+              <span>Ezgi Onaylı Küp</span>
             </div>
             <p className="footer__tagline">
               Yeme davranışında beden ve zihin bütünlüğü.<br />

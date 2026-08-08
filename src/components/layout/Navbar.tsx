@@ -42,7 +42,18 @@ export const Navbar: React.FC = () => {
         <div className="container navbar__inner">
           {/* Logo */}
           <Link to="/" className="navbar__logo" aria-label="Ana sayfaya git">
-            <img src={logoImg} alt="Diyetisyen Ezgi Onaylı Küp Logo" className="navbar__logo-img" />
+            <div className="logo-mark">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.3"/>
+                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.15"/>
+                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.4"/>
+                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <div className="logo-text">
+              <span className="logo-text__name">Ezgi Onaylı Küp</span>
+              <span className="logo-text__title">Diyetisyen</span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}

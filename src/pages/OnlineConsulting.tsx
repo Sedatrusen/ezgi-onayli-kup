@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { CheckCircle, ArrowRight, Clock, MessageCircle, Mail, Send } from 'lucide-react';
 import onlineConsulting from '../assets/online-consulting.png';
@@ -201,7 +202,7 @@ export const OnlineConsulting: React.FC = () => {
                   <p>
                     Kişisel verileriniz yalnızca iletişim amacıyla işlenecek ve üçüncü taraflarla 
                     paylaşılmayacaktır. Detaylı bilgi için{' '}
-                    <a href="/kvkk">KVKK Aydınlatma Metni</a>'ni inceleyebilirsiniz.
+                    <Link to="/kvkk">KVKK Aydınlatma Metni</Link>'ni inceleyebilirsiniz.
                   </p>
                 </div>
                 <button type="submit" className="btn btn-primary btn--lg form-submit" id="online-form-submit">

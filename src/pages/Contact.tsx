@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { MapPin, Phone, Mail, MessageCircle, ExternalLink, Send, Clock } from 'lucide-react';
 
@@ -225,7 +226,7 @@ export const Contact: React.FC = () => {
                   <p>
                     * ile işaretli alanlar zorunludur. Kişisel verileriniz yalnızca 
                     iletişim amacıyla işlenir.{' '}
-                    <a href="/kvkk">KVKK Aydınlatma Metni</a>'ni inceleyebilirsiniz.
+                    <Link to="/kvkk">KVKK Aydınlatma Metni</Link>'ni inceleyebilirsiniz.
                   </p>
                 </div>
                 <button type="submit" className="btn btn-primary btn--lg" id="contact-form-submit">
