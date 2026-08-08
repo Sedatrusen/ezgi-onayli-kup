@@ -358,7 +358,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             text-align: center;
           }
         }
-      `})]})},Oi=({children:e})=>(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Ei,{}),(0,j.jsx)(`main`,{id:`main-content`,tabIndex:-1,children:e}),(0,j.jsx)(Di,{})]}),ki=`/ezgi-onayli-kup/assets/hero-ixBOKXqs.png`,Ai=`/ezgi-onayli-kup/assets/ezgi-portrait-Dv6dwOP2.png`,ji=`/ezgi-onayli-kup/assets/face-to-face-DSAF-2Of.png`,Mi=`/ezgi-onayli-kup/assets/online-consulting-BSKGOe_T.png`,Ni=`/ezgi-onayli-kup/assets/blog-mediterranean-B7fyUHmK.png`,Pi=`/ezgi-onayli-kup/assets/blog-weight-BgmvWx42.png`,Fi=[{id:`1`,slug:`akdeniz-tipi-beslenme-nedir`,title:`Akdeniz Tipi Beslenme Nedir? Neden Bu Kadar Önemli?`,excerpt:`Akdeniz tipi beslenme, bilimsel araştırmalarla desteklenen ve sürdürülebilirliğiyle öne çıkan bir beslenme yaklaşımıdır. Yüzyıllardır Akdeniz coğrafyasında yaşayan toplulukların yaşam biçiminden ilham alan bu model, sağlıklı yağları, sebze-meyveyi ve tam tahılları ön plana çıkarır.`,content:`
+      `})]})},Oi=({children:e})=>(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Ei,{}),(0,j.jsx)(`main`,{id:`main-content`,tabIndex:-1,children:e}),(0,j.jsx)(Di,{})]}),ki=`/ezgi-onayli-kup/assets/hero-D6j2DCNk.png`,Ai=`/ezgi-onayli-kup/assets/ezgi-portrait-C4GYva8e.png`,ji=`/ezgi-onayli-kup/assets/face-to-face-ChPTKz8h.png`,Mi=`/ezgi-onayli-kup/assets/online-consulting-gChqu92w.png`,Ni=`/ezgi-onayli-kup/assets/blog-mediterranean-CM12zNqg.png`,Pi=`/ezgi-onayli-kup/assets/blog-weight-CNZu_FGU.png`,Fi=[{id:`1`,slug:`akdeniz-tipi-beslenme-nedir`,title:`Akdeniz Tipi Beslenme Nedir? Neden Bu Kadar Önemli?`,excerpt:`Akdeniz tipi beslenme, bilimsel araştırmalarla desteklenen ve sürdürülebilirliğiyle öne çıkan bir beslenme yaklaşımıdır. Yüzyıllardır Akdeniz coğrafyasında yaşayan toplulukların yaşam biçiminden ilham alan bu model, sağlıklı yağları, sebze-meyveyi ve tam tahılları ön plana çıkarır.`,content:`
 Akdeniz tipi beslenme, yüzyıllardır Akdeniz ülkelerinde benimsenen geleneksel beslenme kalıplarından yola çıkılarak bilimsel çevreler tarafından tanımlanmış bir beslenme modelidir.
 
 ## Temel Özellikleri
@@ -417,7 +417,7 @@ Su ihtiyacı; yaş, cinsiyet, fiziksel aktivite düzeyi, iklim koşulları ve sa
 Günlük su tüketiminizi artırmak için pratik yöntemler ve su tüketim alışkanlıkları oluşturmak için küçük adımlar atılabilir.
 
 *Bu yazı genel bilgilendirme amaçlıdır.*
-    `,category:`yazı`,readTime:4,publishedAt:`2025-04-20`,image:`/ezgi-onayli-kup/assets/blog-water-rh4HGO1_.png`,imageAlt:`Su ve hidrasyon`},{id:`4`,slug:`protein-kaynaklari`,title:`Protein Kaynakları Nelerdir?`,excerpt:`Protein, kasların, enzimlerin ve hormonların yapı taşıdır. Beslenmenizde kaliteli protein kaynaklarını doğru dengede yer vermek, genel sağlığınız için büyük önem taşır.`,content:`
+    `,category:`yazı`,readTime:4,publishedAt:`2025-04-20`,image:`/ezgi-onayli-kup/assets/blog-water-DYdI8OYL.png`,imageAlt:`Su ve hidrasyon`},{id:`4`,slug:`protein-kaynaklari`,title:`Protein Kaynakları Nelerdir?`,excerpt:`Protein, kasların, enzimlerin ve hormonların yapı taşıdır. Beslenmenizde kaliteli protein kaynaklarını doğru dengede yer vermek, genel sağlığınız için büyük önem taşır.`,content:`
 Proteinler, amino asitlerden oluşan ve vücudun temel yapı taşlarından birini oluşturan makro besin öğeleridir.
 
 ## Hayvansal Protein Kaynakları
@@ -433,7 +433,7 @@ Baklagiller, tofu, tempeh, quinoa ve kuruyemişler önemli bitkisel protein kayn
 Protein ihtiyacını karşılamak için tek bir kaynağa bağlı kalmak yerine, çeşitli kaynaklardan yararlanmak önerilmektedir.
 
 *Bu yazı genel bilgilendirme amaçlıdır.*
-    `,category:`yazı`,readTime:5,publishedAt:`2025-05-08`,image:`/ezgi-onayli-kup/assets/blog-protein-0PHNNsRp.png`,imageAlt:`Protein kaynakları`},{id:`5`,slug:`surdurulebilir-beslenme`,title:`Sürdürülebilir Beslenme Alışkanlıkları Nasıl Edinilir?`,excerpt:`Kısa süreli diyet listeleri değil, uzun vadeli ve sürdürülebilir beslenme alışkanlıkları kalıcı değişimin anahtarıdır. Küçük ama tutarlı adımlarla büyük farklar yaratılabilir.`,content:`
+    `,category:`yazı`,readTime:5,publishedAt:`2025-05-08`,image:`/ezgi-onayli-kup/assets/blog-protein-7phxG6Dk.png`,imageAlt:`Protein kaynakları`},{id:`5`,slug:`surdurulebilir-beslenme`,title:`Sürdürülebilir Beslenme Alışkanlıkları Nasıl Edinilir?`,excerpt:`Kısa süreli diyet listeleri değil, uzun vadeli ve sürdürülebilir beslenme alışkanlıkları kalıcı değişimin anahtarıdır. Küçük ama tutarlı adımlarla büyük farklar yaratılabilir.`,content:`
 Sürdürülebilir bir beslenme düzeni oluşturmak, anlık kararlardan çok, yaşam tarzına entegre edilmiş alışkanlıklar bütününü gerektirir.
 
 ## Küçük Adımlarla Başlamak
