@@ -27,6 +27,7 @@
   /* Typography */
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-script:  'Caveat', 'Great Vibes', 'Sacramento', cursive;
 
   /* Font sizes */
   --text-xs:   0.75rem;
@@ -644,14 +645,32 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 4px 12px rgba(91, 191, 181, 0.3);
 }
 
-/* --- Scrollbar --- */
+/* --- Selection --- */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--color-cream); }
 ::-webkit-scrollbar-thumb { background: var(--color-aqua-light); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-aqua); }
 
-/* --- Selection --- */
 ::selection {
   background-color: rgba(91, 191, 181, 0.2);
   color: var(--color-text-dark);
+}
+
+/* --- Signature / Handwriting Typography --- */
+.script-eyebrow {
+  font-family: var(--font-script) !important;
+  font-size: var(--text-2xl) !important;
+  text-transform: none !important;
+  letter-spacing: 0.02em !important;
+  font-weight: 500 !important;
+  color: var(--color-text-mid) !important;
+}
+
+.ezgi-script-title {
+  font-family: var(--font-script) !important;
+  font-size: 1.25em !important;
+  font-weight: 500 !important;
+  color: var(--color-text-dark) !important;
+  display: inline-block;
+  line-height: 1;
 }

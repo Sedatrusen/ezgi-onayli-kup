@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logoImg from '../../assets/logo.png';
 
 const navLinks = [
   { to: '/',                    label: 'Ana Sayfa' },
@@ -41,18 +42,7 @@ export const Navbar: React.FC = () => {
         <div className="container navbar__inner">
           {/* Logo */}
           <Link to="/" className="navbar__logo" aria-label="Ana sayfaya git">
-            <div className="logo-mark">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.3"/>
-                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.15"/>
-                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.4"/>
-                <circle cx="16" cy="16" r="3" fill="currentColor"/>
-              </svg>
-            </div>
-            <div className="logo-text">
-              <span className="logo-text__name">Ezgi Onaylı Küp</span>
-              <span className="logo-text__title">Diyetisyen</span>
-            </div>
+            <img src={logoImg} alt="Diyetisyen Ezgi Onaylı Küp Logo" className="navbar__logo-img" />
           </Link>
 
           {/* Desktop Nav */}
@@ -139,13 +129,17 @@ export const Navbar: React.FC = () => {
         .navbar__logo {
           display: flex;
           align-items: center;
-          gap: var(--space-3);
-          color: var(--color-aqua-dark);
           flex-shrink: 0;
           transition: opacity var(--transition-fast);
         }
 
-        .navbar__logo:hover { opacity: 0.8; }
+        .navbar__logo:hover { opacity: 0.85; }
+
+        .navbar__logo-img {
+          height: 46px;
+          width: auto;
+          object-fit: contain;
+        }
 
         .logo-mark {
           color: var(--color-aqua);

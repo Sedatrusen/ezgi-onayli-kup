@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink, MessageCircle, Mail, MapPin, Phone, Heart } from 'lucide-react';
 
+import logoImg from '../../assets/logo.png';
+
 export const Footer: React.FC = () => {
   const year = new Date().getFullYear();
 
@@ -13,13 +15,7 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="footer__brand">
             <div className="footer__logo">
-              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.2"/>
-                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.5"/>
-                <circle cx="16" cy="16" r="3" fill="currentColor"/>
-              </svg>
-              <span>Ezgi Onaylı Küp</span>
+              <img src={logoImg} alt="Diyetisyen Ezgi Onaylı Küp" className="footer__logo-img" />
             </div>
             <p className="footer__tagline">
               Yeme davranışında beden ve zihin bütünlüğü.<br />
@@ -133,12 +129,13 @@ export const Footer: React.FC = () => {
         .footer__logo {
           display: flex;
           align-items: center;
-          gap: var(--space-3);
-          color: var(--color-aqua-light);
-          font-family: var(--font-display);
-          font-size: var(--text-lg);
-          font-weight: 500;
           margin-bottom: var(--space-4);
+        }
+
+        .footer__logo-img {
+          height: 48px;
+          width: auto;
+          filter: brightness(0) invert(1) opacity(0.9);
         }
 
         .footer__tagline {

@@ -45,7 +45,7 @@ export const About: React.FC = () => {
         <div className="container">
           <p className="page-header__eyebrow animate-fade-up">Hakkımda</p>
           <h1 className="page-header__title animate-fade-up animate-fade-up-delay-1">
-            Diyetisyen<br /><span style={{ color: 'var(--color-aqua-dark)', fontStyle: 'italic' }}>Ezgi Onaylı Küp</span>
+            Diyetisyen<br /><span className="ezgi-script-title">Ezgi Onaylı Küp</span>
           </h1>
           <p className="page-header__subtitle animate-fade-up animate-fade-up-delay-2">
             Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak olduğuna inanıyorum.
@@ -67,8 +67,8 @@ export const About: React.FC = () => {
             <div className="about-intro__img-deco" aria-hidden="true" />
           </div>
           <div className="about-intro__text reveal">
-            <div className="section-eyebrow">Merhaba ♡</div>
-            <h2 className="section-title">Ben Ezgi,<br /><em>Diyetisyeniniz.</em></h2>
+            <div className="section-eyebrow script-eyebrow">Merhaba! ♡</div>
+            <h2 className="section-title">Ben <span className="ezgi-script-title">Ezgi Onaylı.</span></h2>
             <p>
               Beslenme danışmanlığına bütüncül bir perspektiften bakıyorum. 
               Yeme davranışının sadece beslenme bilgisiyle değil; duygular, 

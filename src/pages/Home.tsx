@@ -196,8 +196,8 @@ export const Home: React.FC = () => {
           </div>
 
           <div className="about-preview__content reveal">
-            <div className="section-eyebrow">Merhaba ♡</div>
-            <h2 className="section-title">Ben Diyetisyen<br /><em>Ezgi Onaylı.</em></h2>
+            <div className="section-eyebrow script-eyebrow">Merhaba! ♡</div>
+            <h2 className="section-title">Ben Diyetisyen<br /><span className="ezgi-script-title">Ezgi Onaylı.</span></h2>
             <p className="about-preview__text">
               Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak 
               olduğuna inanıyorum.
