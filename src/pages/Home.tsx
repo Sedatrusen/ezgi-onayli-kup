@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import {
   ArrowRight, Leaf, Monitor, MapPin, Heart, BookOpen,
-  Video, Users, Star, CheckCircle
+  Video, Users, Star, CheckCircle, ExternalLink
 } from 'lucide-react';
 import heroImg from '../assets/hero.png';
 import ezgiPortrait from '../assets/ezgi-portrait.png';
@@ -304,6 +304,46 @@ export const Home: React.FC = () => {
             <Link to="/beslenme-rehberi" className="btn btn-ghost btn--lg" id="all-posts-btn">
               Tüm Yazıları Gör <ArrowRight size={16} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── INSTAGRAM REEL SECTION ── */}
+      <section className="section bg-white" aria-label="Instagram paylaşımı">
+        <div className="container">
+          <div className="section-header section-header--center reveal">
+            <div className="section-eyebrow">Instagram'da Ezgi Onaylı</div>
+            <h2 className="section-title">Öne çıkan <em>videolu içerik</em></h2>
+            <p className="section-subtitle">
+              Yeme davranışı ve sağlıklı beslenme üzerine paylaştığım güncel Reels video içeriği.
+            </p>
+          </div>
+
+          <div className="reel-container reveal">
+            <div className="reel-embed-card">
+              <iframe
+                src="https://www.instagram.com/reel/C8ucrUUqKwG/embed"
+                width="360"
+                height="480"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                title="Diyetisyen Ezgi Onaylı Küp Instagram Reel Video"
+                style={{ border: 'none', borderRadius: 'var(--radius-lg)', maxWidth: '100%' }}
+              />
+            </div>
+            <div className="reel-action text-center mt-6">
+              <a
+                href="https://www.instagram.com/reel/C8ucrUUqKwG/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn--lg"
+                id="instagram-reel-link"
+              >
+                Instagram'da İzle & Takip Et
+                <ExternalLink size={18} />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -885,6 +925,20 @@ export const Home: React.FC = () => {
           gap: var(--space-3);
           flex-shrink: 0;
           flex-wrap: wrap;
+        }
+
+        /* ── REEL EMBED ── */
+        .reel-embed-card {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: var(--space-4);
+          background: var(--color-cream);
+          border-radius: var(--radius-xl);
+          border: 1px solid var(--color-cream-border);
+          max-width: 420px;
+          margin: 0 auto;
+          box-shadow: var(--shadow-md);
         }
 
         /* ── RESPONSIVE ── */
