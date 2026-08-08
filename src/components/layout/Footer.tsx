@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink, MessageCircle, Mail, MapPin, Phone, Heart } from 'lucide-react';
 
-import logoImg from '../../assets/logo.png';
-
 export const Footer: React.FC = () => {
   const year = new Date().getFullYear();
 
