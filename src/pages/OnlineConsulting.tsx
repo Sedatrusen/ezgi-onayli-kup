@@ -224,11 +224,11 @@ export const OnlineConsulting: React.FC = () => {
                 </div>
                 <ArrowRight size={14} />
               </a>
-              <a href="mailto:info@ezgionaylikup.com" className="alt-contact" id="online-email-btn">
+              <a href="mailto:dytezgionayli@gmail.com" className="alt-contact" id="online-email-btn">
                 <Mail size={20} />
                 <div>
                   <strong>E-posta</strong>
-                  <span>info@ezgionaylikup.com</span>
+                  <span>dytezgionayli@gmail.com</span>
                 </div>
                 <ArrowRight size={14} />
               </a>

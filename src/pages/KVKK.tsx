@@ -20,7 +20,7 @@ export const KVKK: React.FC = () => (
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-2xl)', margin: '2rem 0 1rem' }}>İşleme Amaçları</h2>
           <p>Bilgi taleplerinin yanıtlanması ve iletişim sağlanması.</p>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--text-2xl)', margin: '2rem 0 1rem' }}>Haklarınız</h2>
-          <p>KVKK'nın 11. maddesi kapsamında verilerinize erişim, düzeltme, silme ve itiraz haklarınız bulunmaktadır. Talepleriniz için info@ezgionaylikup.com adresine yazabilirsiniz.</p>
+          <p>KVKK'nın 11. maddesi kapsamında verilerinize erişim, düzeltme, silme ve itiraz haklarınız bulunmaktadır. Talepleriniz için dytezgionayli@gmail.com adresine yazabilirsiniz.</p>
           <p style={{ marginTop: '2rem', fontSize: 'var(--text-sm)', color: 'var(--color-text-light)' }}>Bu metin taslak niteliğindedir; yayına almadan önce hukuki uzman desteği alınması önerilir.</p>
         </div>
       </div>

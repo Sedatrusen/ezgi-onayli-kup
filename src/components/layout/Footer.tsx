@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
                 <MessageCircle size={18} />
               </a>
               <a
-                href="mailto:info@ezgionaylikup.com"
+                href="mailto:dytezgionayli@gmail.com"
                 className="footer__social-link"
                 aria-label="E-posta gönder"
               >
@@ -78,7 +78,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Mail size={15} aria-hidden="true" />
-                <a href="mailto:info@ezgionaylikup.com">info@ezgionaylikup.com</a>
+                <a href="mailto:dytezgionayli@gmail.com">dytezgionayli@gmail.com</a>
               </li>
               <li>
                 <MessageCircle size={15} aria-hidden="true" />

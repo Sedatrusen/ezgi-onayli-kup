@@ -36,7 +36,7 @@ export const Contact: React.FC = () => {
           "name": "Diyetisyen Ezgi Onaylı Küp",
           "description": "Beslenme danışmanlığı — yüz yüze ve online",
           "address": { "@type": "PostalAddress", "addressLocality": "Yalova", "addressCountry": "TR" },
-          "email": "info@ezgionaylikup.com",
+          "email": "dytezgionayli@gmail.com",
           "url": "https://ezgionaylikup.com"
         })}</script>
       </Helmet>
@@ -89,13 +89,13 @@ export const Contact: React.FC = () => {
                 </div>
               </a>
 
-              <a href="mailto:info@ezgionaylikup.com" className="contact-method" id="contact-email">
+              <a href="mailto:dytezgionayli@gmail.com" className="contact-method" id="contact-email">
                 <div className="contact-method__icon">
                   <Mail size={22} />
                 </div>
                 <div>
                   <strong>E-posta</strong>
-                  <span>info@ezgionaylikup.com</span>
+                  <span>dytezgionayli@gmail.com</span>
                 </div>
               </a>
 
