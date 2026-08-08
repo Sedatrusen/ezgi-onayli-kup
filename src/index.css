@@ -11,9 +11,9 @@
   --color-cream:        #FAF7F2;
   --color-cream-dark:   #F2EDE4;
   --color-cream-border: #E8E0D4;
-  --color-aqua:         #5BBFB5;
-  --color-aqua-light:   #A8DDD9;
-  --color-aqua-dark:    #3DA098;
+  --color-aqua:         #45B5AA;
+  --color-aqua-light:   #9FE0D8;
+  --color-aqua-dark:    #2C948B;
   --color-sage:         #8BAF88;
   --color-sage-light:   #B5C9A8;
   --color-sage-dark:    #6B8E68;
@@ -77,7 +77,7 @@
 
   /* Layout */
   --max-width: 1200px;
-  --navbar-height: 72px;
+  --navbar-height: 88px;
 }
 
 /* --- Reset --- */

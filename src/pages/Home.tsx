@@ -131,20 +131,6 @@ export const Home: React.FC = () => {
                 className="hero__img"
                 fetchPriority="high"
               />
-              <div className="hero__img-card hero__img-card--1">
-                <Leaf size={16} className="card-icon" />
-                <div>
-                  <strong>Sürdürülebilir</strong>
-                  <span>Beslenme Planı</span>
-                </div>
-              </div>
-              <div className="hero__img-card hero__img-card--2">
-                <Monitor size={16} className="card-icon" />
-                <div>
-                  <strong>Online Görüşme</strong>
-                  <span>Türkiye geneli</span>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -188,10 +174,6 @@ export const Home: React.FC = () => {
                 alt="Diyetisyen Ezgi Onaylı Küp — Profesyonel portre"
                 className="about-preview__img"
               />
-              <div className="about-preview__badge">
-                <Heart size={16} />
-                <span>Beden & Zihin Bütünlüğü</span>
-              </div>
             </div>
           </div>
 

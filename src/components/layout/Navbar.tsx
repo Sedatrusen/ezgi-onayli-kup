@@ -136,9 +136,14 @@ export const Navbar: React.FC = () => {
         .navbar__logo:hover { opacity: 0.85; }
 
         .navbar__logo-img {
-          height: 46px;
+          height: 64px;
           width: auto;
           object-fit: contain;
+          transition: transform var(--transition-fast);
+        }
+
+        .navbar__logo:hover .navbar__logo-img {
+          transform: scale(1.03);
         }
 
         .logo-mark {
