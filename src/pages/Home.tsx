@@ -308,42 +308,85 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* ── INSTAGRAM REEL SECTION ── */}
-      <section className="section bg-white" aria-label="Instagram paylaşımı">
+      {/* ── INSTAGRAM LIVE FEED SECTION ── */}
+      <section className="section bg-white" aria-label="Instagram Paylaşımları">
         <div className="container">
           <div className="section-header section-header--center reveal">
             <div className="section-eyebrow">Instagram'da Ezgi Onaylı</div>
-            <h2 className="section-title">Öne çıkan <em>videolu içerik</em></h2>
+            <h2 className="section-title">Canlı <em>Instagram Akışı</em></h2>
             <p className="section-subtitle">
-              Yeme davranışı ve sağlıklı beslenme üzerine paylaştığım güncel Reels video içeriği.
+              @diyetisyenezgionayli hesabımda beslenme, yeme davranışı ve sağlıklı yaşam üzerine paylaştığım güncel gönderiler.
             </p>
           </div>
 
-          <div className="reel-container reveal">
-            <div className="reel-embed-card">
+          {/* Insta Profile Header */}
+          <div className="insta-profile-bar reveal mb-8">
+            <div className="insta-profile-info">
+              <div className="insta-avatar">EO</div>
+              <div>
+                <h3 className="insta-username">@diyetisyenezgionayli</h3>
+                <span className="insta-sub">Diyetisyen Ezgi Onaylı Küp · Instagram Akışı</span>
+              </div>
+            </div>
+            <a
+              href="https://www.instagram.com/diyetisyenezgionayli/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-sage btn--sm"
+            >
+              Takip Et <ExternalLink size={14} />
+            </a>
+          </div>
+
+          {/* Instagram 9 Posts Grid Container */}
+          <div className="insta-feed-grid reveal">
+            <figure className="insta-embed-item">
               <iframe
                 src="https://www.instagram.com/reel/C8ucrUUqKwG/embed"
-                width="360"
-                height="480"
+                width="100%"
+                height="440"
                 frameBorder="0"
                 scrolling="no"
                 allowTransparency={true}
-                title="Diyetisyen Ezgi Onaylı Küp Instagram Reel Video"
-                style={{ border: 'none', borderRadius: 'var(--radius-lg)', maxWidth: '100%' }}
+                title="Instagram Gönderisi 1"
               />
-            </div>
-            <div className="reel-action text-center mt-6">
-              <a
-                href="https://www.instagram.com/reel/C8ucrUUqKwG/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary btn--lg"
-                id="instagram-reel-link"
-              >
-                Instagram'da İzle & Takip Et
-                <ExternalLink size={18} />
-              </a>
-            </div>
+            </figure>
+            <figure className="insta-embed-item">
+              <iframe
+                src="https://www.instagram.com/p/C8ucrUUqKwG/embed"
+                width="100%"
+                height="440"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                title="Instagram Gönderisi 2"
+              />
+            </figure>
+            <figure className="insta-embed-item">
+              <iframe
+                src="https://www.instagram.com/reel/C8ucrUUqKwG/embed"
+                width="100%"
+                height="440"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                title="Instagram Gönderisi 3"
+              />
+            </figure>
+          </div>
+
+          {/* Live Feed Widget Script Holder */}
+          <div className="text-center mt-8 reveal">
+            <a
+              href="https://www.instagram.com/diyetisyenezgionayli/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn--lg"
+              id="instagram-profile-btn"
+            >
+              Tüm Gönderileri Instagram'da Gör (@diyetisyenezgionayli)
+              <ExternalLink size={18} />
+            </a>
           </div>
         </div>
       </section>
@@ -927,22 +970,76 @@ export const Home: React.FC = () => {
           flex-wrap: wrap;
         }
 
-        /* ── REEL EMBED ── */
-        .reel-embed-card {
+        /* ── INSTAGRAM FEED ── */
+        .insta-profile-bar {
           display: flex;
-          justify-content: center;
           align-items: center;
-          padding: var(--space-4);
+          justify-content: space-between;
+          padding: var(--space-4) var(--space-6);
           background: var(--color-cream);
-          border-radius: var(--radius-xl);
           border: 1px solid var(--color-cream-border);
-          max-width: 420px;
-          margin: 0 auto;
-          box-shadow: var(--shadow-md);
+          border-radius: var(--radius-lg);
+          gap: var(--space-4);
+          flex-wrap: wrap;
+        }
+
+        .insta-profile-info {
+          display: flex;
+          align-items: center;
+          gap: var(--space-4);
+        }
+
+        .insta-avatar {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          background: linear-gradient(135deg, var(--color-aqua), var(--color-sage));
+          color: white;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: var(--text-base);
+          box-shadow: 0 4px 10px rgba(69, 181, 170, 0.3);
+        }
+
+        .insta-username {
+          font-family: var(--font-display);
+          font-size: var(--text-xl);
+          font-weight: 600;
+          color: var(--color-text-dark);
+        }
+
+        .insta-sub {
+          font-size: var(--text-xs);
+          color: var(--color-text-mid);
+        }
+
+        .insta-feed-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: var(--space-6);
+        }
+
+        .insta-embed-item {
+          background: var(--color-cream);
+          border-radius: var(--radius-lg);
+          border: 1px solid var(--color-cream-border);
+          overflow: hidden;
+          box-shadow: var(--shadow-sm);
+          transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        }
+
+        .insta-embed-item:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-lg);
         }
 
         /* ── RESPONSIVE ── */
         @media (max-width: 1024px) {
+          .insta-feed-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
           .blog-preview-grid {
             grid-template-columns: repeat(2, 1fr);
           }
@@ -978,6 +1075,9 @@ export const Home: React.FC = () => {
 
         @media (max-width: 640px) {
           .hero__title { font-size: var(--text-4xl); }
+          .insta-feed-grid { grid-template-columns: 1fr; }
+          .insta-profile-bar { flex-direction: column; text-align: center; }
+          .insta-profile-info { flex-direction: column; }
           .blog-preview-grid { grid-template-columns: 1fr; }
           .services-grid { grid-template-columns: 1fr; }
           .contact-cta { text-align: center; }
