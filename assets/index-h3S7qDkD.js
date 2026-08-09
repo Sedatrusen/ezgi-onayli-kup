@@ -241,7 +241,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         @media (max-width: 640px) {
           .logo-text__name { font-size: var(--text-sm); }
         }
-      `})]})},Ei=()=>{let e=new Date().getFullYear();return(0,j.jsxs)(`footer`,{className:`footer`,role:`contentinfo`,children:[(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`footer__top`,children:[(0,j.jsxs)(`div`,{className:`footer__brand`,children:[(0,j.jsxs)(`div`,{className:`footer__logo`,children:[(0,j.jsxs)(`svg`,{width:`28`,height:`28`,viewBox:`0 0 32 32`,fill:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`circle`,{cx:`16`,cy:`16`,r:`15`,stroke:`currentColor`,strokeWidth:`1.5`,opacity:`0.4`}),(0,j.jsx)(`path`,{d:`M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z`,fill:`currentColor`,opacity:`0.2`}),(0,j.jsx)(`path`,{d:`M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z`,fill:`currentColor`,opacity:`0.5`}),(0,j.jsx)(`circle`,{cx:`16`,cy:`16`,r:`3`,fill:`currentColor`})]}),(0,j.jsx)(`span`,{children:`Ezgi Onaylı Küp`})]}),(0,j.jsxs)(`p`,{className:`footer__tagline`,children:[`Yeme davranışında beden ve zihin bütünlüğü.`,(0,j.jsx)(`br`,{}),`Sürdürülebilir kilo yönetimi.`]}),(0,j.jsxs)(`div`,{className:`footer__socials`,children:[(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`footer__social-link`,"aria-label":`Instagram'da takip edin`,children:(0,j.jsx)(oi,{size:18})}),(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,className:`footer__social-link`,"aria-label":`WhatsApp ile iletişim`,children:(0,j.jsx)(mi,{size:18})}),(0,j.jsx)(`a`,{href:`mailto:dytezgionayli@gmail.com`,className:`footer__social-link`,"aria-label":`E-posta gönder`,children:(0,j.jsx)(di,{size:18})})]})]}),(0,j.jsxs)(`div`,{className:`footer__col`,children:[(0,j.jsx)(`h3`,{className:`footer__col-title`,children:`Sayfalar`}),(0,j.jsxs)(`ul`,{className:`footer__links`,children:[(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/`,children:`Ana Sayfa`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/hakkimda`,children:`Hakkımda`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/danismanlik`,children:`Danışmanlık`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/online-danismanlik`,children:`Online Danışmanlık`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/akademi`,children:`Akademi`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/beslenme-rehberi`,children:`Beslenme Rehberi`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/iletisim`,children:`İletişim`})})]})]}),(0,j.jsxs)(`div`,{className:`footer__col`,children:[(0,j.jsx)(`h3`,{className:`footer__col-title`,children:`İletişim`}),(0,j.jsxs)(`ul`,{className:`footer__contact`,children:[(0,j.jsxs)(`li`,{children:[(0,j.jsx)(fi,{size:15,"aria-hidden":`true`}),(0,j.jsxs)(`span`,{children:[`Yalova Klinik Adresi`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`small`,{children:`Yakında eklenecek`})]})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(gi,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`tel:+905XXXXXXXXX`,children:`+90 (5XX) XXX XX XX`})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(di,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`mailto:dytezgionayli@gmail.com`,children:`dytezgionayli@gmail.com`})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(mi,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,children:`WhatsApp ile ulaşın`})]})]})]})]}),(0,j.jsx)(`div`,{className:`footer__divider`}),(0,j.jsxs)(`div`,{className:`footer__bottom`,children:[(0,j.jsxs)(`p`,{children:[`© `,e,` Diyetisyen Ezgi Onaylı Küp · Tüm hakları saklıdır.`]}),(0,j.jsxs)(`div`,{className:`footer__legal`,children:[(0,j.jsx)(k,{to:`/kvkk`,children:`KVKK`}),(0,j.jsx)(`span`,{children:`·`}),(0,j.jsx)(k,{to:`/gizlilik`,children:`Gizlilik Politikası`}),(0,j.jsx)(`span`,{children:`·`}),(0,j.jsx)(k,{to:`/cerez`,children:`Çerez Politikası`})]}),(0,j.jsxs)(`p`,{className:`footer__made`,children:[(0,j.jsx)(ci,{size:12,"aria-hidden":`true`}),` Sağlıklı yaşam için`]})]})]}),(0,j.jsx)(`style`,{children:`
+      `})]})},Ei=()=>{let e=new Date().getFullYear();return(0,j.jsxs)(`footer`,{className:`footer`,role:`contentinfo`,children:[(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`footer__top`,children:[(0,j.jsxs)(`div`,{className:`footer__brand`,children:[(0,j.jsxs)(`div`,{className:`footer__logo`,children:[(0,j.jsxs)(`svg`,{width:`36`,height:`36`,viewBox:`0 0 44 44`,fill:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z`,fill:`#E5C564`,opacity:`0.9`}),(0,j.jsx)(`path`,{d:`M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z`,fill:`#F7E9B0`,opacity:`0.8`}),(0,j.jsx)(`path`,{d:`M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z`,fill:`#67826B`}),(0,j.jsx)(`path`,{d:`M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z`,fill:`#4D6651`})]}),(0,j.jsx)(`span`,{children:`Ezgi Onaylı Küp`})]}),(0,j.jsxs)(`p`,{className:`footer__tagline`,children:[`Yeme davranışında beden ve zihin bütünlüğü.`,(0,j.jsx)(`br`,{}),`Sürdürülebilir kilo yönetimi.`]}),(0,j.jsxs)(`div`,{className:`footer__socials`,children:[(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`footer__social-link`,"aria-label":`Instagram'da takip edin`,children:(0,j.jsx)(oi,{size:18})}),(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,className:`footer__social-link`,"aria-label":`WhatsApp ile iletişim`,children:(0,j.jsx)(mi,{size:18})}),(0,j.jsx)(`a`,{href:`mailto:dytezgionayli@gmail.com`,className:`footer__social-link`,"aria-label":`E-posta gönder`,children:(0,j.jsx)(di,{size:18})})]})]}),(0,j.jsxs)(`div`,{className:`footer__col`,children:[(0,j.jsx)(`h3`,{className:`footer__col-title`,children:`Sayfalar`}),(0,j.jsxs)(`ul`,{className:`footer__links`,children:[(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/`,children:`Ana Sayfa`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/hakkimda`,children:`Hakkımda`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/danismanlik`,children:`Danışmanlık`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/online-danismanlik`,children:`Online Danışmanlık`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/akademi`,children:`Akademi`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/beslenme-rehberi`,children:`Beslenme Rehberi`})}),(0,j.jsx)(`li`,{children:(0,j.jsx)(k,{to:`/iletisim`,children:`İletişim`})})]})]}),(0,j.jsxs)(`div`,{className:`footer__col`,children:[(0,j.jsx)(`h3`,{className:`footer__col-title`,children:`İletişim`}),(0,j.jsxs)(`ul`,{className:`footer__contact`,children:[(0,j.jsxs)(`li`,{children:[(0,j.jsx)(fi,{size:15,"aria-hidden":`true`}),(0,j.jsxs)(`span`,{children:[`Yalova Klinik Adresi`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`small`,{children:`Yakında eklenecek`})]})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(gi,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`tel:+905XXXXXXXXX`,children:`+90 (5XX) XXX XX XX`})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(di,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`mailto:dytezgionayli@gmail.com`,children:`dytezgionayli@gmail.com`})]}),(0,j.jsxs)(`li`,{children:[(0,j.jsx)(mi,{size:15,"aria-hidden":`true`}),(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,children:`WhatsApp ile ulaşın`})]})]})]})]}),(0,j.jsx)(`div`,{className:`footer__divider`}),(0,j.jsxs)(`div`,{className:`footer__bottom`,children:[(0,j.jsxs)(`p`,{children:[`© `,e,` Diyetisyen Ezgi Onaylı Küp · Tüm hakları saklıdır.`]}),(0,j.jsxs)(`div`,{className:`footer__legal`,children:[(0,j.jsx)(k,{to:`/kvkk`,children:`KVKK`}),(0,j.jsx)(`span`,{children:`·`}),(0,j.jsx)(k,{to:`/gizlilik`,children:`Gizlilik Politikası`}),(0,j.jsx)(`span`,{children:`·`}),(0,j.jsx)(k,{to:`/cerez`,children:`Çerez Politikası`})]}),(0,j.jsxs)(`p`,{className:`footer__made`,children:[(0,j.jsx)(ci,{size:12,"aria-hidden":`true`}),` Sağlıklı yaşam için`]})]})]}),(0,j.jsx)(`style`,{children:`
         .footer {
           background: var(--color-text-dark);
           color: rgba(250, 247, 242, 0.7);
@@ -420,7 +420,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             text-align: center;
           }
         }
-      `})]})},Di=({children:e})=>(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Ti,{}),(0,j.jsx)(`main`,{id:`main-content`,tabIndex:-1,children:e}),(0,j.jsx)(Ei,{})]}),Oi=`/ezgi-onayli-kup/assets/ezgi-portrait-C4GYva8e.png`,ki=`/ezgi-onayli-kup/assets/face-to-face-ChPTKz8h.png`,Ai=`/ezgi-onayli-kup/assets/online-consulting-gChqu92w.png`,ji=`/ezgi-onayli-kup/assets/insta-profile-BiZJ-F1j.png`,Mi=`/ezgi-onayli-kup/assets/hero-plant-topleft-BUgLaw15.jpg`,Ni=`/ezgi-onayli-kup/assets/hero-sea-bottomright-DrF1wiyU.jpg`,Pi=`/ezgi-onayli-kup/assets/blog-mediterranean-CM12zNqg.png`,Fi=`/ezgi-onayli-kup/assets/blog-weight-CNZu_FGU.png`,Ii=[{id:`1`,slug:`akdeniz-tipi-beslenme-nedir`,title:`Akdeniz Tipi Beslenme Nedir? Neden Bu Kadar Önemli?`,excerpt:`Akdeniz tipi beslenme, bilimsel araştırmalarla desteklenen ve sürdürülebilirliğiyle öne çıkan bir beslenme yaklaşımıdır. Yüzyıllardır Akdeniz coğrafyasında yaşayan toplulukların yaşam biçiminden ilham alan bu model, sağlıklı yağları, sebze-meyveyi ve tam tahılları ön plana çıkarır.`,content:`
+      `})]})},Di=({children:e})=>(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Ti,{}),(0,j.jsx)(`main`,{id:`main-content`,tabIndex:-1,children:e}),(0,j.jsx)(Ei,{})]}),Oi=`/ezgi-onayli-kup/assets/ezgi-portrait-C4GYva8e.png`,ki=`/ezgi-onayli-kup/assets/face-to-face-ChPTKz8h.png`,Ai=`/ezgi-onayli-kup/assets/online-consulting-gChqu92w.png`,ji=`/ezgi-onayli-kup/assets/insta-profile-BiZJ-F1j.png`,Mi=`/ezgi-onayli-kup/assets/hero-plant-topleft-BUgLaw15.jpg`,Ni=`/ezgi-onayli-kup/assets/hero-sea-bottomright-CErIaRDf.jpg`,Pi=`/ezgi-onayli-kup/assets/blog-mediterranean-CM12zNqg.png`,Fi=`/ezgi-onayli-kup/assets/blog-weight-CNZu_FGU.png`,Ii=[{id:`1`,slug:`akdeniz-tipi-beslenme-nedir`,title:`Akdeniz Tipi Beslenme Nedir? Neden Bu Kadar Önemli?`,excerpt:`Akdeniz tipi beslenme, bilimsel araştırmalarla desteklenen ve sürdürülebilirliğiyle öne çıkan bir beslenme yaklaşımıdır. Yüzyıllardır Akdeniz coğrafyasında yaşayan toplulukların yaşam biçiminden ilham alan bu model, sağlıklı yağları, sebze-meyveyi ve tam tahılları ön plana çıkarır.`,content:`
 Akdeniz tipi beslenme, yüzyıllardır Akdeniz ülkelerinde benimsenen geleneksel beslenme kalıplarından yola çıkılarak bilimsel çevreler tarafından tanımlanmış bir beslenme modelidir.
 
 ## Temel Özellikleri
@@ -511,7 +511,7 @@ Katı kurallar yerine esneklik içeren bir beslenme yaklaşımı, uzun vadede da
 Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uyarlamak, kalıcı bir beslenme düzeni oluşturmanın temelini atar.
 
 *Bu yazı genel bilgilendirme amaçlıdır.*
-    `,category:`yazı`,readTime:7,publishedAt:`2025-06-01`,image:Fi,imageAlt:`Sürdürülebilir beslenme`}],Li=[{icon:(0,j.jsx)(ci,{size:24}),title:`Sürdürülebilir Kilo Yönetimi`,desc:`Kısa vadeli değil, uzun vadeli ve sürdürülebilir çözümler.`},{icon:(0,j.jsx)(ui,{size:24}),title:`Sağlıklı Beslenme`,desc:`Yaşam tarzınıza uygun, dengeli ve sağlıklı beslenme planları.`},{icon:(0,j.jsx)(hi,{size:24}),title:`Online Danışmanlık`,desc:`Türkiye'nin her yerinden online görüşme ve takip imkânı.`},{icon:(0,j.jsx)(yi,{size:24}),title:`Beslenme Alışkanlıklarını Düzenleme`,desc:`Yeme davranışını anlamaya ve dönüştürmeye yönelik bütüncül yaklaşım.`},{icon:(0,j.jsx)(ii,{size:24}),title:`Kişiye Özel Programlar`,desc:`Hedeflerinize, yaşamınıza ve ihtiyaçlarınıza özel beslenme planları.`},{icon:(0,j.jsx)(ci,{size:24}),title:`Yeme Davranışı Danışmanlığı`,desc:`Duygusal yeme, sağlıklı alışkanlıklar ve farkındalık üzerine çalışmalar.`}],Ri=Ii.slice(0,4),zi=()=>((0,_.useEffect)(()=>{let e=document.querySelectorAll(`.reveal`),t=new IntersectionObserver(e=>e.forEach(e=>{e.isIntersecting&&(e.target.classList.add(`visible`),t.unobserve(e.target))}),{threshold:.1});return e.forEach(e=>t.observe(e)),()=>t.disconnect()},[]),(0,j.jsxs)(j.Fragment,{children:[(0,j.jsxs)(Ur,{children:[(0,j.jsx)(`title`,{children:`Diyetisyen Ezgi Onaylı Küp | Beslenme & Sağlıklı Yaşam`}),(0,j.jsx)(`meta`,{name:`description`,content:`Diyetisyen Ezgi Onaylı Küp — Yeme davranışında beden ve zihin bütünlüğü. Yalova'da yüz yüze, Türkiye'nin her yerinden online beslenme danışmanlığı.`}),(0,j.jsx)(`meta`,{property:`og:title`,content:`Diyetisyen Ezgi Onaylı Küp`}),(0,j.jsx)(`meta`,{property:`og:description`,content:`Yeme davranışında beden ve zihin bütünlüğü. Sürdürülebilir kilo yönetimi.`}),(0,j.jsx)(`script`,{type:`application/ld+json`,children:JSON.stringify({"@context":`https://schema.org`,"@type":`Person`,name:`Ezgi Onaylı Küp`,jobTitle:`Diyetisyen`,url:`https://ezgionaylikup.com`,description:`Yeme davranışında beden ve zihin bütünlüğü.`,address:{"@type":`PostalAddress`,addressLocality:`Yalova`,addressCountry:`TR`}})})]}),(0,j.jsxs)(`section`,{className:`hero`,"aria-label":`Ana başlık bölümü`,children:[(0,j.jsx)(`div`,{className:`hero-top-left-plant`,"aria-hidden":`true`,children:(0,j.jsx)(`img`,{src:Mi,alt:``,className:`hero-plant-img`})}),(0,j.jsx)(`div`,{className:`hero-bottom-right-sea`,"aria-hidden":`true`,children:(0,j.jsx)(`img`,{src:Ni,alt:``,className:`hero-sea-img`})}),(0,j.jsx)(`div`,{className:`container hero__inner`,children:(0,j.jsxs)(`div`,{className:`hero__content animate-fade-up`,children:[(0,j.jsxs)(`div`,{className:`hero-centered-brand text-center mb-6`,children:[(0,j.jsx)(`div`,{className:`hero-lemon-icon-mark mb-2`,children:(0,j.jsxs)(`svg`,{width:`44`,height:`44`,viewBox:`0 0 44 44`,fill:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z`,fill:`#E5C564`,opacity:`0.9`}),(0,j.jsx)(`path`,{d:`M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z`,fill:`#F7E9B0`,opacity:`0.8`}),(0,j.jsx)(`path`,{d:`M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z`,fill:`#67826B`}),(0,j.jsx)(`path`,{d:`M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z`,fill:`#4D6651`})]})}),(0,j.jsx)(`p`,{className:`hero-brand-subtitle`,children:`D İ Y E T İ S Y E N`}),(0,j.jsx)(`h1`,{className:`hero-brand-title`,children:`Ezgi Onaylı Küp`}),(0,j.jsx)(`div`,{className:`hero-brand-divider`,children:(0,j.jsx)(`span`,{className:`dot`})})]}),(0,j.jsx)(`div`,{className:`text-center mb-6`,children:(0,j.jsxs)(`span`,{className:`badge badge-aqua hero__badge mx-auto`,children:[(0,j.jsx)(ui,{size:12}),` YALOVA & TÜRKİYE GENELİ`]})}),(0,j.jsxs)(`h2`,{className:`hero__title text-center`,children:[`Yeme davranışında`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`span`,{className:`hero-title-script`,children:`beden ve zihin`}),(0,j.jsx)(`br`,{}),`bütünlüğü.`]}),(0,j.jsxs)(`p`,{className:`hero__subtitle text-center`,children:[`Yalova'daki kliniğimde yüz yüze,`,(0,j.jsx)(`br`,{}),`Türkiye'nin her yerinden online beslenme danışmanlığı.`]}),(0,j.jsxs)(`div`,{className:`hero__ctas justify-center`,children:[(0,j.jsxs)(k,{to:`/online-danismanlik`,className:`btn btn-primary btn--lg hero-btn-pill`,id:`hero-online-btn`,children:[`Online Danışmanlık`,(0,j.jsx)(ei,{size:18})]}),(0,j.jsx)(k,{to:`/iletisim`,className:`btn btn-secondary btn--lg hero-btn-pill`,id:`hero-contact-btn`,children:`Benimle İletişime Geç`})]}),(0,j.jsxs)(`div`,{className:`hero-trust-bar`,children:[(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(fi,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Yalova Kliniği`})]}),(0,j.jsx)(`div`,{className:`hero-trust-divider`}),(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(hi,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Online Görüşme`})]}),(0,j.jsx)(`div`,{className:`hero-trust-divider`}),(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(ui,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Kişiye Özel Program`})]})]})]})}),(0,j.jsx)(`div`,{className:`hero__lemon`,"aria-hidden":`true`,children:`🍋`}),(0,j.jsx)(`div`,{className:`hero__lemon hero__lemon--2`,"aria-hidden":`true`,children:`🌿`})]}),(0,j.jsx)(`section`,{className:`section bg-white`,"aria-label":`Hizmetler`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Sana Nasıl Yardımcı Olabilirim?`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Birlikte `,(0,j.jsx)(`em`,{children:`neler çalışabiliriz`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Beslenme danışmanlığını sadece diyet listesi vermek olarak görmüyorum. Beden, zihin ve yaşam tarzını bir bütün olarak değerlendiriyorum.`})]}),(0,j.jsx)(`div`,{className:`services-grid reveal`,children:Li.map((e,t)=>(0,j.jsxs)(`div`,{className:`service-card`,style:{animationDelay:`${t*.08}s`},children:[(0,j.jsx)(`div`,{className:`service-card__icon`,"aria-hidden":`true`,children:e.icon}),(0,j.jsx)(`h3`,{className:`service-card__title`,children:e.title}),(0,j.jsx)(`p`,{className:`service-card__desc`,children:e.desc})]},t))})]})}),(0,j.jsx)(`section`,{className:`section`,"aria-label":`Hakkımda kısa tanıtım`,children:(0,j.jsxs)(`div`,{className:`container about-preview`,children:[(0,j.jsx)(`div`,{className:`about-preview__img-col reveal`,children:(0,j.jsx)(`div`,{className:`about-preview__img-wrapper`,children:(0,j.jsx)(`img`,{src:Oi,alt:`Diyetisyen Ezgi Onaylı Küp — Profesyonel portre`,className:`about-preview__img`})})}),(0,j.jsxs)(`div`,{className:`about-preview__content reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow script-eyebrow`,children:`Merhaba! ♡`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Ben Diyetisyen`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`span`,{className:`ezgi-script-title`,children:`Ezgi Onaylı.`})]}),(0,j.jsx)(`p`,{className:`about-preview__text`,children:`Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak olduğuna inanıyorum.`}),(0,j.jsx)(`p`,{className:`about-preview__text`,children:`Her danışanın yaşamına, ihtiyaçlarına ve hedeflerine uygun sürdürülebilir bir yol oluşturmak ve bu yolda en büyük desteğin yanında olmak en büyük amacım.`}),(0,j.jsxs)(k,{to:`/hakkimda`,className:`btn btn-sage mt-6`,id:`about-preview-btn`,children:[`Hakkımda Daha Fazla`,(0,j.jsx)(ei,{size:16})]})]})]})}),(0,j.jsx)(`section`,{className:`section bg-cream-dark`,"aria-label":`Danışmanlık seçenekleri`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Nasıl Çalışabiliriz?`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`İki farklı `,(0,j.jsx)(`em`,{children:`danışmanlık seçeneği`})]})]}),(0,j.jsxs)(`div`,{className:`consulting-grid reveal`,children:[(0,j.jsxs)(`div`,{className:`consulting-card`,children:[(0,j.jsx)(`div`,{className:`consulting-card__icon`,children:(0,j.jsx)(fi,{size:28})}),(0,j.jsx)(`div`,{className:`consulting-card__img`,children:(0,j.jsx)(`img`,{src:ki,alt:`Yüz yüze danışmanlık — Yalova kliniği`})}),(0,j.jsxs)(`div`,{className:`consulting-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-sage`,children:`Yalova Kliniği`}),(0,j.jsx)(`h3`,{children:`Yüz Yüze Danışmanlık`}),(0,j.jsx)(`ul`,{className:`checklist`,children:[`Kapsamlı kişisel değerlendirme`,`Ölçüm ve analiz`,`Kişiye özel beslenme programı`,`Düzenli takip ve motivasyon`].map(e=>(0,j.jsxs)(`li`,{className:`checklist-item`,children:[(0,j.jsx)(`div`,{className:`checklist-icon`,children:(0,j.jsx)(ii,{size:12,color:`var(--color-sage)`})}),e]},e))}),(0,j.jsxs)(k,{to:`/danismanlik`,className:`btn btn-sage`,id:`face-to-face-btn`,children:[`Detaylı Bilgi `,(0,j.jsx)(ei,{size:15})]})]})]}),(0,j.jsxs)(`div`,{className:`consulting-card consulting-card--aqua`,children:[(0,j.jsx)(`div`,{className:`consulting-card__icon`,children:(0,j.jsx)(hi,{size:28})}),(0,j.jsx)(`div`,{className:`consulting-card__img`,children:(0,j.jsx)(`img`,{src:Ai,alt:`Online danışmanlık — video görüşme`})}),(0,j.jsxs)(`div`,{className:`consulting-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-aqua`,children:`Türkiye'nin Her Yerinden`}),(0,j.jsx)(`h3`,{children:`Online Danışmanlık`}),(0,j.jsx)(`ul`,{className:`checklist`,children:[`Online görüşme`,`Kişiye özel beslenme programı`,`Düzenli takip ve değerlendirme`,`Sürekli iletişim desteği`].map(e=>(0,j.jsxs)(`li`,{className:`checklist-item`,children:[(0,j.jsx)(`div`,{className:`checklist-icon`,children:(0,j.jsx)(ii,{size:12,color:`var(--color-aqua)`})}),e]},e))}),(0,j.jsxs)(k,{to:`/online-danismanlik`,className:`btn btn-primary`,id:`online-consulting-btn`,children:[`Detaylı Bilgi `,(0,j.jsx)(ei,{size:15})]})]})]})]})]})}),(0,j.jsx)(`section`,{className:`section bg-white`,"aria-label":`Beslenme Rehberi son yazılar`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Beslenme Rehberi`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Güncel `,(0,j.jsx)(`em`,{children:`içerikler`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Bilimsel temelli yazılar, beslenme rehberleri ve pratik öneriler.`})]}),(0,j.jsx)(`div`,{className:`blog-preview-grid reveal`,children:Ri.map(e=>(0,j.jsxs)(`article`,{className:`blog-card`,children:[(0,j.jsx)(k,{to:`/beslenme-rehberi/${e.slug}`,className:`blog-card__img-link`,"aria-label":e.title,children:(0,j.jsx)(`div`,{className:`blog-card__img`,children:(0,j.jsx)(`img`,{src:e.image,alt:e.imageAlt})})}),(0,j.jsxs)(`div`,{className:`blog-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-sage`,children:e.category}),(0,j.jsx)(`h3`,{className:`blog-card__title`,children:(0,j.jsx)(k,{to:`/beslenme-rehberi/${e.slug}`,children:e.title})}),(0,j.jsxs)(`p`,{className:`blog-card__excerpt`,children:[e.excerpt.substring(0,100),`…`]}),(0,j.jsxs)(`div`,{className:`blog-card__footer`,children:[(0,j.jsxs)(`span`,{className:`blog-card__read-time`,children:[e.readTime,` dk okuma`]}),(0,j.jsxs)(k,{to:`/beslenme-rehberi/${e.slug}`,className:`blog-card__cta`,children:[`Devamını Oku `,(0,j.jsx)(ei,{size:13})]})]})]})]},e.id))}),(0,j.jsx)(`div`,{className:`text-center mt-12 reveal`,children:(0,j.jsxs)(k,{to:`/beslenme-rehberi`,className:`btn btn-ghost btn--lg`,id:`all-posts-btn`,children:[`Tüm Yazıları Gör `,(0,j.jsx)(ei,{size:16})]})})]})}),(0,j.jsx)(`section`,{className:`section bg-cream-dark`,"aria-label":`Instagram Topluluğumuz`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Sosyal Medya`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Instagram'da `,(0,j.jsx)(`em`,{children:`Buluşalım`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Günlük beslenme ipuçları, yeme davranışı farkındalıkları ve sağlıklı yaşam içeriklerim için beni Instagram'da takip edebilirsiniz.`})]}),(0,j.jsxs)(`div`,{className:`insta-app-card reveal`,children:[(0,j.jsxs)(`div`,{className:`insta-app-header`,children:[(0,j.jsx)(`div`,{className:`insta-app-avatar-wrapper`,children:(0,j.jsx)(`div`,{className:`insta-app-avatar-ring`,children:(0,j.jsx)(`img`,{src:ji,alt:`Diyetisyen Ezgi Onaylı Küp Instagram Profil Fotoğrafı`,className:`insta-app-avatar-img`})})}),(0,j.jsxs)(`div`,{className:`insta-app-details`,children:[(0,j.jsxs)(`div`,{className:`insta-app-top-row`,children:[(0,j.jsx)(`h3`,{className:`insta-app-username`,children:`diyetisyenezgionayli`}),(0,j.jsx)(`span`,{className:`insta-verified-badge`,title:`Onaylı Profil`,children:`✓`}),(0,j.jsxs)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`btn btn-sage btn--sm insta-follow-btn`,children:[`Instagram'da Takip Et `,(0,j.jsx)(oi,{size:14})]})]}),(0,j.jsxs)(`div`,{className:`insta-app-stats`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`strong`,{children:`1.2k+`}),` `,(0,j.jsx)(`span`,{children:`Gönderi`})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`strong`,{children:`Takip Et`}),` `,(0,j.jsx)(`span`,{children:`Beslenme Topluluğu`})]})]}),(0,j.jsxs)(`div`,{className:`insta-app-bio`,children:[(0,j.jsx)(`strong`,{children:`Diyetisyen Ezgi Onaylı Küp`}),(0,j.jsx)(`p`,{className:`bio-tagline`,children:`🌿 Yeme davranışında beden ve zihin bütünlüğü.`}),(0,j.jsx)(`p`,{className:`bio-desc`,children:`📍 Yalova Kliniği & Türkiye Geneli Online Beslenme Danışmanlığı`}),(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`bio-link`,children:`🔗 instagram.com/diyetisyenezgionayli/`})]})]})]}),(0,j.jsx)(`div`,{className:`behold-widget-wrapper reveal`,style:{marginTop:`var(--space-6)`},children:(0,j.jsx)(`figure`,{className:`behold-container`,children:(0,j.jsx)(`behold-widget`,{"feed-id":`ohkBhtDHSnUneRor9dTg`})})}),(0,j.jsx)(`div`,{className:`text-center mt-8 reveal`,children:(0,j.jsxs)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`btn btn-primary btn--lg`,id:`instagram-profile-btn`,children:[`Instagram'da Takip Et (@diyetisyenezgionayli)`,(0,j.jsx)(oi,{size:18})]})})]})]})}),(0,j.jsx)(`section`,{className:`section academy-teaser`,"aria-label":`Ezgi Onaylı Akademi`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsx)(`div`,{className:`academy-teaser__inner reveal`,children:(0,j.jsxs)(`div`,{className:`academy-teaser__content`,children:[(0,j.jsx)(`span`,{className:`badge badge-lemon`,children:`Yakında`}),(0,j.jsxs)(`h2`,{className:`section-title`,style:{color:`white`},children:[`Ezgi Onaylı `,(0,j.jsx)(`em`,{style:{color:`var(--color-lemon)`},children:`Akademi`})]}),(0,j.jsx)(`p`,{style:{color:`rgba(250,247,242,0.75)`,fontSize:`var(--text-lg)`,lineHeight:1.7,marginBottom:`var(--space-6)`},children:`E-kitaplar, beslenme rehberleri, video eğitimler ve çok daha fazlası yakında burada olacak.`}),(0,j.jsx)(`div`,{className:`academy-teaser__features`,children:[{icon:(0,j.jsx)(ni,{size:18}),text:`E-Kitaplar & Rehberler`},{icon:(0,j.jsx)(xi,{size:18}),text:`Video Eğitimler`},{icon:(0,j.jsx)(bi,{size:18}),text:`Grup Çalışmaları`}].map(e=>(0,j.jsxs)(`div`,{className:`academy-feature`,children:[e.icon,(0,j.jsx)(`span`,{children:e.text})]},e.text))}),(0,j.jsxs)(k,{to:`/akademi`,className:`btn btn--lg academy-teaser__btn`,id:`academy-teaser-btn`,children:[`Akademiye Göz At `,(0,j.jsx)(ei,{size:18})]})]})})})}),(0,j.jsx)(`section`,{className:`section--sm`,"aria-label":`İletişim çağrısı`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsxs)(`div`,{className:`contact-cta reveal`,children:[(0,j.jsx)(`div`,{children:(0,j.jsxs)(`h2`,{className:`contact-cta__title`,children:[`Benimle iletişime geç,`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`em`,{children:`sağlıklı ve mutlu bir sen'e ilk adımı at.`}),` ♡`]})}),(0,j.jsxs)(`div`,{className:`contact-cta__actions`,children:[(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,className:`btn btn-primary btn--lg`,id:`whatsapp-cta-btn`,children:`WhatsApp ile Yaz`}),(0,j.jsx)(k,{to:`/iletisim`,className:`btn btn-secondary btn--lg`,id:`contact-cta-btn`,children:`Randevu Talebi`})]})]})})}),(0,j.jsx)(`style`,{children:`
+    `,category:`yazı`,readTime:7,publishedAt:`2025-06-01`,image:Fi,imageAlt:`Sürdürülebilir beslenme`}],Li=[{icon:(0,j.jsx)(ci,{size:24}),title:`Sürdürülebilir Kilo Yönetimi`,desc:`Kısa vadeli değil, uzun vadeli ve sürdürülebilir çözümler.`},{icon:(0,j.jsx)(ui,{size:24}),title:`Sağlıklı Beslenme`,desc:`Yaşam tarzınıza uygun, dengeli ve sağlıklı beslenme planları.`},{icon:(0,j.jsx)(hi,{size:24}),title:`Online Danışmanlık`,desc:`Türkiye'nin her yerinden online görüşme ve takip imkânı.`},{icon:(0,j.jsx)(yi,{size:24}),title:`Beslenme Alışkanlıklarını Düzenleme`,desc:`Yeme davranışını anlamaya ve dönüştürmeye yönelik bütüncül yaklaşım.`},{icon:(0,j.jsx)(ii,{size:24}),title:`Kişiye Özel Programlar`,desc:`Hedeflerinize, yaşamınıza ve ihtiyaçlarınıza özel beslenme planları.`},{icon:(0,j.jsx)(ci,{size:24}),title:`Yeme Davranışı Danışmanlığı`,desc:`Duygusal yeme, sağlıklı alışkanlıklar ve farkındalık üzerine çalışmalar.`}],Ri=Ii.slice(0,4),zi=()=>((0,_.useEffect)(()=>{let e=document.querySelectorAll(`.reveal`),t=new IntersectionObserver(e=>e.forEach(e=>{e.isIntersecting&&(e.target.classList.add(`visible`),t.unobserve(e.target))}),{threshold:.1});return e.forEach(e=>t.observe(e)),()=>t.disconnect()},[]),(0,j.jsxs)(j.Fragment,{children:[(0,j.jsxs)(Ur,{children:[(0,j.jsx)(`title`,{children:`Diyetisyen Ezgi Onaylı Küp | Beslenme & Sağlıklı Yaşam`}),(0,j.jsx)(`meta`,{name:`description`,content:`Diyetisyen Ezgi Onaylı Küp — Yeme davranışında beden ve zihin bütünlüğü. Yalova'da yüz yüze, Türkiye'nin her yerinden online beslenme danışmanlığı.`}),(0,j.jsx)(`meta`,{property:`og:title`,content:`Diyetisyen Ezgi Onaylı Küp`}),(0,j.jsx)(`meta`,{property:`og:description`,content:`Yeme davranışında beden ve zihin bütünlüğü. Sürdürülebilir kilo yönetimi.`}),(0,j.jsx)(`script`,{type:`application/ld+json`,children:JSON.stringify({"@context":`https://schema.org`,"@type":`Person`,name:`Ezgi Onaylı Küp`,jobTitle:`Diyetisyen`,url:`https://ezgionaylikup.com`,description:`Yeme davranışında beden ve zihin bütünlüğü.`,address:{"@type":`PostalAddress`,addressLocality:`Yalova`,addressCountry:`TR`}})})]}),(0,j.jsxs)(`section`,{className:`hero`,"aria-label":`Ana başlık bölümü`,children:[(0,j.jsx)(`div`,{className:`hero-top-left-plant`,"aria-hidden":`true`,children:(0,j.jsx)(`img`,{src:Mi,alt:``,className:`hero-plant-img`})}),(0,j.jsx)(`div`,{className:`hero-bottom-right-sea`,"aria-hidden":`true`,children:(0,j.jsx)(`img`,{src:Ni,alt:``,className:`hero-sea-img`})}),(0,j.jsx)(`div`,{className:`container hero__inner`,children:(0,j.jsxs)(`div`,{className:`hero__content animate-fade-up`,children:[(0,j.jsxs)(`div`,{className:`hero-centered-brand text-center mb-6`,children:[(0,j.jsx)(`div`,{className:`hero-lemon-icon-mark mb-2`,children:(0,j.jsxs)(`svg`,{width:`44`,height:`44`,viewBox:`0 0 44 44`,fill:`none`,"aria-hidden":`true`,children:[(0,j.jsx)(`path`,{d:`M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z`,fill:`#E5C564`,opacity:`0.9`}),(0,j.jsx)(`path`,{d:`M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z`,fill:`#F7E9B0`,opacity:`0.8`}),(0,j.jsx)(`path`,{d:`M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z`,fill:`#67826B`}),(0,j.jsx)(`path`,{d:`M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z`,fill:`#4D6651`})]})}),(0,j.jsx)(`p`,{className:`hero-brand-subtitle`,children:`D İ Y E T İ S Y E N`}),(0,j.jsx)(`h1`,{className:`hero-brand-title`,children:`Ezgi Onaylı Küp`}),(0,j.jsx)(`div`,{className:`hero-brand-divider`,children:(0,j.jsx)(`span`,{className:`dot`})})]}),(0,j.jsx)(`div`,{className:`text-center mb-6`,children:(0,j.jsxs)(`span`,{className:`badge badge-aqua hero__badge mx-auto`,children:[(0,j.jsx)(ui,{size:12}),` YALOVA & TÜRKİYE GENELİ`]})}),(0,j.jsxs)(`h2`,{className:`hero__title text-center`,children:[`Yeme davranışında`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`span`,{className:`hero-title-script`,children:`beden ve zihin`}),(0,j.jsx)(`br`,{}),`bütünlüğü.`]}),(0,j.jsxs)(`p`,{className:`hero__subtitle text-center`,children:[`Yalova'daki kliniğimde yüz yüze,`,(0,j.jsx)(`br`,{}),`Türkiye'nin her yerinden online beslenme danışmanlığı.`]}),(0,j.jsxs)(`div`,{className:`hero__ctas justify-center`,children:[(0,j.jsxs)(k,{to:`/online-danismanlik`,className:`btn btn-primary btn--lg hero-btn-pill`,id:`hero-online-btn`,children:[`Online Danışmanlık`,(0,j.jsx)(ei,{size:18})]}),(0,j.jsx)(k,{to:`/iletisim`,className:`btn btn-secondary btn--lg hero-btn-pill`,id:`hero-contact-btn`,children:`Benimle İletişime Geç`})]}),(0,j.jsxs)(`div`,{className:`hero-trust-bar`,children:[(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(fi,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Yalova Kliniği`})]}),(0,j.jsx)(`div`,{className:`hero-trust-divider`}),(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(hi,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Online Görüşme`})]}),(0,j.jsx)(`div`,{className:`hero-trust-divider`}),(0,j.jsxs)(`div`,{className:`hero-trust-column`,children:[(0,j.jsx)(ui,{size:22,className:`hero-trust-icon`}),(0,j.jsx)(`span`,{children:`Kişiye Özel Program`})]})]})]})})]}),(0,j.jsx)(`section`,{className:`section bg-white`,"aria-label":`Hizmetler`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Sana Nasıl Yardımcı Olabilirim?`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Birlikte `,(0,j.jsx)(`em`,{children:`neler çalışabiliriz`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Beslenme danışmanlığını sadece diyet listesi vermek olarak görmüyorum. Beden, zihin ve yaşam tarzını bir bütün olarak değerlendiriyorum.`})]}),(0,j.jsx)(`div`,{className:`services-grid reveal`,children:Li.map((e,t)=>(0,j.jsxs)(`div`,{className:`service-card`,style:{animationDelay:`${t*.08}s`},children:[(0,j.jsx)(`div`,{className:`service-card__icon`,"aria-hidden":`true`,children:e.icon}),(0,j.jsx)(`h3`,{className:`service-card__title`,children:e.title}),(0,j.jsx)(`p`,{className:`service-card__desc`,children:e.desc})]},t))})]})}),(0,j.jsx)(`section`,{className:`section`,"aria-label":`Hakkımda kısa tanıtım`,children:(0,j.jsxs)(`div`,{className:`container about-preview`,children:[(0,j.jsx)(`div`,{className:`about-preview__img-col reveal`,children:(0,j.jsx)(`div`,{className:`about-preview__img-wrapper`,children:(0,j.jsx)(`img`,{src:Oi,alt:`Diyetisyen Ezgi Onaylı Küp — Profesyonel portre`,className:`about-preview__img`})})}),(0,j.jsxs)(`div`,{className:`about-preview__content reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow script-eyebrow`,children:`Merhaba! ♡`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Ben Diyetisyen`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`span`,{className:`ezgi-script-title`,children:`Ezgi Onaylı.`})]}),(0,j.jsx)(`p`,{className:`about-preview__text`,children:`Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak olduğuna inanıyorum.`}),(0,j.jsx)(`p`,{className:`about-preview__text`,children:`Her danışanın yaşamına, ihtiyaçlarına ve hedeflerine uygun sürdürülebilir bir yol oluşturmak ve bu yolda en büyük desteğin yanında olmak en büyük amacım.`}),(0,j.jsxs)(k,{to:`/hakkimda`,className:`btn btn-sage mt-6`,id:`about-preview-btn`,children:[`Hakkımda Daha Fazla`,(0,j.jsx)(ei,{size:16})]})]})]})}),(0,j.jsx)(`section`,{className:`section bg-cream-dark`,"aria-label":`Danışmanlık seçenekleri`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Nasıl Çalışabiliriz?`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`İki farklı `,(0,j.jsx)(`em`,{children:`danışmanlık seçeneği`})]})]}),(0,j.jsxs)(`div`,{className:`consulting-grid reveal`,children:[(0,j.jsxs)(`div`,{className:`consulting-card`,children:[(0,j.jsx)(`div`,{className:`consulting-card__icon`,children:(0,j.jsx)(fi,{size:28})}),(0,j.jsx)(`div`,{className:`consulting-card__img`,children:(0,j.jsx)(`img`,{src:ki,alt:`Yüz yüze danışmanlık — Yalova kliniği`})}),(0,j.jsxs)(`div`,{className:`consulting-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-sage`,children:`Yalova Kliniği`}),(0,j.jsx)(`h3`,{children:`Yüz Yüze Danışmanlık`}),(0,j.jsx)(`ul`,{className:`checklist`,children:[`Kapsamlı kişisel değerlendirme`,`Ölçüm ve analiz`,`Kişiye özel beslenme programı`,`Düzenli takip ve motivasyon`].map(e=>(0,j.jsxs)(`li`,{className:`checklist-item`,children:[(0,j.jsx)(`div`,{className:`checklist-icon`,children:(0,j.jsx)(ii,{size:12,color:`var(--color-sage)`})}),e]},e))}),(0,j.jsxs)(k,{to:`/danismanlik`,className:`btn btn-sage`,id:`face-to-face-btn`,children:[`Detaylı Bilgi `,(0,j.jsx)(ei,{size:15})]})]})]}),(0,j.jsxs)(`div`,{className:`consulting-card consulting-card--aqua`,children:[(0,j.jsx)(`div`,{className:`consulting-card__icon`,children:(0,j.jsx)(hi,{size:28})}),(0,j.jsx)(`div`,{className:`consulting-card__img`,children:(0,j.jsx)(`img`,{src:Ai,alt:`Online danışmanlık — video görüşme`})}),(0,j.jsxs)(`div`,{className:`consulting-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-aqua`,children:`Türkiye'nin Her Yerinden`}),(0,j.jsx)(`h3`,{children:`Online Danışmanlık`}),(0,j.jsx)(`ul`,{className:`checklist`,children:[`Online görüşme`,`Kişiye özel beslenme programı`,`Düzenli takip ve değerlendirme`,`Sürekli iletişim desteği`].map(e=>(0,j.jsxs)(`li`,{className:`checklist-item`,children:[(0,j.jsx)(`div`,{className:`checklist-icon`,children:(0,j.jsx)(ii,{size:12,color:`var(--color-aqua)`})}),e]},e))}),(0,j.jsxs)(k,{to:`/online-danismanlik`,className:`btn btn-primary`,id:`online-consulting-btn`,children:[`Detaylı Bilgi `,(0,j.jsx)(ei,{size:15})]})]})]})]})]})}),(0,j.jsx)(`section`,{className:`section bg-white`,"aria-label":`Beslenme Rehberi son yazılar`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Beslenme Rehberi`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Güncel `,(0,j.jsx)(`em`,{children:`içerikler`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Bilimsel temelli yazılar, beslenme rehberleri ve pratik öneriler.`})]}),(0,j.jsx)(`div`,{className:`blog-preview-grid reveal`,children:Ri.map(e=>(0,j.jsxs)(`article`,{className:`blog-card`,children:[(0,j.jsx)(k,{to:`/beslenme-rehberi/${e.slug}`,className:`blog-card__img-link`,"aria-label":e.title,children:(0,j.jsx)(`div`,{className:`blog-card__img`,children:(0,j.jsx)(`img`,{src:e.image,alt:e.imageAlt})})}),(0,j.jsxs)(`div`,{className:`blog-card__body`,children:[(0,j.jsx)(`span`,{className:`badge badge-sage`,children:e.category}),(0,j.jsx)(`h3`,{className:`blog-card__title`,children:(0,j.jsx)(k,{to:`/beslenme-rehberi/${e.slug}`,children:e.title})}),(0,j.jsxs)(`p`,{className:`blog-card__excerpt`,children:[e.excerpt.substring(0,100),`…`]}),(0,j.jsxs)(`div`,{className:`blog-card__footer`,children:[(0,j.jsxs)(`span`,{className:`blog-card__read-time`,children:[e.readTime,` dk okuma`]}),(0,j.jsxs)(k,{to:`/beslenme-rehberi/${e.slug}`,className:`blog-card__cta`,children:[`Devamını Oku `,(0,j.jsx)(ei,{size:13})]})]})]})]},e.id))}),(0,j.jsx)(`div`,{className:`text-center mt-12 reveal`,children:(0,j.jsxs)(k,{to:`/beslenme-rehberi`,className:`btn btn-ghost btn--lg`,id:`all-posts-btn`,children:[`Tüm Yazıları Gör `,(0,j.jsx)(ei,{size:16})]})})]})}),(0,j.jsx)(`section`,{className:`section bg-cream-dark`,"aria-label":`Instagram Topluluğumuz`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Sosyal Medya`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Instagram'da `,(0,j.jsx)(`em`,{children:`Buluşalım`})]}),(0,j.jsx)(`p`,{className:`section-subtitle`,children:`Günlük beslenme ipuçları, yeme davranışı farkındalıkları ve sağlıklı yaşam içeriklerim için beni Instagram'da takip edebilirsiniz.`})]}),(0,j.jsxs)(`div`,{className:`insta-native-app-card reveal`,children:[(0,j.jsxs)(`div`,{className:`insta-header-row`,children:[(0,j.jsx)(`div`,{className:`insta-avatar-col`,children:(0,j.jsx)(`div`,{className:`insta-story-ring`,children:(0,j.jsx)(`img`,{src:ji,alt:`Diyetisyen Ezgi Onaylı Küp`,className:`insta-profile-photo`})})}),(0,j.jsxs)(`div`,{className:`insta-counts-col`,children:[(0,j.jsxs)(`div`,{className:`insta-stat flex-col`,children:[(0,j.jsx)(`span`,{className:`stat-num`,children:`1.240`}),(0,j.jsx)(`span`,{className:`stat-label`,children:`gönderi`})]}),(0,j.jsxs)(`div`,{className:`insta-stat flex-col`,children:[(0,j.jsx)(`span`,{className:`stat-num`,children:`15.8k`}),(0,j.jsx)(`span`,{className:`stat-label`,children:`takipçi`})]}),(0,j.jsxs)(`div`,{className:`insta-stat flex-col`,children:[(0,j.jsx)(`span`,{className:`stat-num`,children:`480`}),(0,j.jsx)(`span`,{className:`stat-label`,children:`takip`})]})]})]}),(0,j.jsxs)(`div`,{className:`insta-bio-block`,children:[(0,j.jsxs)(`div`,{className:`insta-name-line`,children:[(0,j.jsx)(`h3`,{className:`insta-real-name`,children:`Diyetisyen Ezgi Onaylı Küp`}),(0,j.jsx)(`span`,{className:`insta-badge-check`,children:`✓`})]}),(0,j.jsx)(`span`,{className:`insta-handle-sub`,children:`@diyetisyenezgionayli · Sağlık & Beslenme`}),(0,j.jsxs)(`p`,{className:`insta-bio-text`,children:[`🌿 Yeme davranışında beden ve zihin bütünlüğü.`,(0,j.jsx)(`br`,{}),`📍 Yalova Kliniği & Online Danışmanlık`,(0,j.jsx)(`br`,{}),`🌱 Sürdürülebilir kilo yönetimi ve beslenme farkındalığı.`]}),(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`insta-bio-url`,children:`instagram.com/diyetisyenezgionayli/`})]}),(0,j.jsxs)(`div`,{className:`insta-actions-bar`,children:[(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`insta-btn insta-btn-primary`,children:`Takip Et`}),(0,j.jsx)(`a`,{href:`https://www.instagram.com/diyetisyenezgionayli/`,target:`_blank`,rel:`noopener noreferrer`,className:`insta-btn insta-btn-secondary`,children:`Mesaj Gönder`})]}),(0,j.jsx)(`div`,{className:`insta-tab-strip`,children:(0,j.jsxs)(`div`,{className:`insta-tab active`,children:[(0,j.jsxs)(`svg`,{width:`20`,height:`20`,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:`2`,children:[(0,j.jsx)(`rect`,{x:`3`,y:`3`,width:`7`,height:`7`}),(0,j.jsx)(`rect`,{x:`14`,y:`3`,width:`7`,height:`7`}),(0,j.jsx)(`rect`,{x:`14`,y:`14`,width:`7`,height:`7`}),(0,j.jsx)(`rect`,{x:`3`,y:`14`,width:`7`,height:`7`})]}),(0,j.jsx)(`span`,{children:`GÖNDERİLER`})]})}),(0,j.jsx)(`div`,{className:`behold-widget-wrapper`,children:(0,j.jsx)(`figure`,{className:`behold-container`,children:(0,j.jsx)(`behold-widget`,{"feed-id":`ohkBhtDHSnUneRor9dTg`})})})]})]})}),(0,j.jsx)(`section`,{className:`section academy-teaser`,"aria-label":`Ezgi Onaylı Akademi`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsx)(`div`,{className:`academy-teaser__inner reveal`,children:(0,j.jsxs)(`div`,{className:`academy-teaser__content`,children:[(0,j.jsx)(`span`,{className:`badge badge-lemon`,children:`Yakında`}),(0,j.jsxs)(`h2`,{className:`section-title`,style:{color:`white`},children:[`Ezgi Onaylı `,(0,j.jsx)(`em`,{style:{color:`var(--color-lemon)`},children:`Akademi`})]}),(0,j.jsx)(`p`,{style:{color:`rgba(250,247,242,0.75)`,fontSize:`var(--text-lg)`,lineHeight:1.7,marginBottom:`var(--space-6)`},children:`E-kitaplar, beslenme rehberleri, video eğitimler ve çok daha fazlası yakında burada olacak.`}),(0,j.jsx)(`div`,{className:`academy-teaser__features`,children:[{icon:(0,j.jsx)(ni,{size:18}),text:`E-Kitaplar & Rehberler`},{icon:(0,j.jsx)(xi,{size:18}),text:`Video Eğitimler`},{icon:(0,j.jsx)(bi,{size:18}),text:`Grup Çalışmaları`}].map(e=>(0,j.jsxs)(`div`,{className:`academy-feature`,children:[e.icon,(0,j.jsx)(`span`,{children:e.text})]},e.text))}),(0,j.jsxs)(k,{to:`/akademi`,className:`btn btn--lg academy-teaser__btn`,id:`academy-teaser-btn`,children:[`Akademiye Göz At `,(0,j.jsx)(ei,{size:18})]})]})})})}),(0,j.jsx)(`section`,{className:`section--sm`,"aria-label":`İletişim çağrısı`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsxs)(`div`,{className:`contact-cta reveal`,children:[(0,j.jsx)(`div`,{children:(0,j.jsxs)(`h2`,{className:`contact-cta__title`,children:[`Benimle iletişime geç,`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`em`,{children:`sağlıklı ve mutlu bir sen'e ilk adımı at.`}),` ♡`]})}),(0,j.jsxs)(`div`,{className:`contact-cta__actions`,children:[(0,j.jsx)(`a`,{href:`https://wa.me/905XXXXXXXXX`,target:`_blank`,rel:`noopener noreferrer`,className:`btn btn-primary btn--lg`,id:`whatsapp-cta-btn`,children:`WhatsApp ile Yaz`}),(0,j.jsx)(k,{to:`/iletisim`,className:`btn btn-secondary btn--lg`,id:`contact-cta-btn`,children:`Randevu Talebi`})]})]})})}),(0,j.jsx)(`style`,{children:`
         /* ── HERO ── */
         .hero {
           min-height: 100vh;
@@ -529,8 +529,10 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
           position: absolute;
           top: 0;
           left: 0;
-          width: 320px;
-          height: 320px;
+          width: 50vw;
+          height: 60vh;
+          max-width: 480px;
+          max-height: 480px;
           pointer-events: none;
           z-index: 2;
           overflow: hidden;
@@ -543,18 +545,18 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
           object-position: left top;
           mix-blend-mode: multiply;
           opacity: 0.85;
-          filter: contrast(1.1);
-          mask-image: radial-gradient(circle at 0% 0%, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 95%);
-          -webkit-mask-image: radial-gradient(circle at 0% 0%, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 95%);
+          filter: contrast(1.05) brightness(1.02);
+          mask-image: radial-gradient(ellipse 85% 85% at 0% 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,0.6) 55%, rgba(0,0,0,0) 90%);
+          -webkit-mask-image: radial-gradient(ellipse 85% 85% at 0% 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,0.6) 55%, rgba(0,0,0,0) 90%);
         }
 
-        /* Bottom-Right Sea Waves & Sand Shore Overlay */
-        .hero-bottom-right-sea {
+       .hero-bottom-right-sea {
           position: absolute;
           right: 0;
-          bottom: 0;
-          width: 65%;
-          height: 75%;
+          top: 0;
+          width: 60vw;
+          max-width: 800px;
+          height: 100%;
           pointer-events: none;
           z-index: 1;
           overflow: hidden;
@@ -564,11 +566,22 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
           width: 100%;
           height: 100%;
           object-fit: cover;
-          object-position: right bottom;
-          mix-blend-mode: multiply;
-          opacity: 0.65;
-          mask-image: radial-gradient(ellipse 90% 85% at 100% 100%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 95%);
-          -webkit-mask-image: radial-gradient(ellipse 90% 85% at 100% 100%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 95%);
+          object-position: center 20%;
+          opacity: 0.82;
+          filter: saturate(1.2) contrast(1.05) brightness(1.0);
+          /* Fade from left edge: image fades into background. Also fade from bottom to hide sand */
+          mask-image: linear-gradient(
+            to left,
+            rgba(0,0,0,0.9) 0%,
+            rgba(0,0,0,0.55) 45%,
+            rgba(0,0,0,0) 70%
+          );
+          -webkit-mask-image: linear-gradient(
+            to left,
+            rgba(0,0,0,0.9) 0%,
+            rgba(0,0,0,0.55) 45%,
+            rgba(0,0,0,0) 70%
+          );
         }
 
         .hero__inner {
@@ -1211,221 +1224,248 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
           flex-wrap: wrap;
         }
 
-        /* ── INSTAGRAM APP CARD ── */
-        .insta-app-card {
-          max-width: 680px;
+        /* ── AUTHENTIC INSTAGRAM NATIVE APP UI ── */
+        .insta-native-app-card {
+          max-width: 620px;
           margin: 0 auto;
-          background: var(--color-white);
+          background: #FFFFFF;
           border-radius: var(--radius-xl);
-          border: 1px solid var(--color-cream-border);
-          padding: var(--space-8);
-          box-shadow: var(--shadow-lg);
+          border: 1px solid rgba(0, 0, 0, 0.08);
+          padding: 24px;
+          box-shadow: 0 12px 36px rgba(0, 0, 0, 0.06);
           display: flex;
           flex-direction: column;
-          gap: var(--space-6);
+          gap: 16px;
         }
 
-        .insta-app-header {
+        .insta-header-row {
           display: flex;
-          gap: var(--space-6);
-          align-items: flex-start;
+          align-items: center;
+          gap: 24px;
         }
 
-        .insta-app-avatar-wrapper {
+        .insta-avatar-col {
           flex-shrink: 0;
         }
 
-        .insta-app-avatar-ring {
+        .insta-story-ring {
           padding: 3px;
           background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
           border-radius: 50%;
         }
 
-        .insta-app-avatar-img {
-          width: 84px;
-          height: 84px;
+        .insta-profile-photo {
+          width: 82px;
+          height: 82px;
           border-radius: 50%;
           object-fit: cover;
           display: block;
-          border: 3px solid white;
+          border: 3px solid #FFFFFF;
         }
 
-        .insta-app-details {
+        .insta-counts-col {
           display: flex;
-          flex-direction: column;
-          gap: var(--space-3);
+          align-items: center;
+          justify-content: space-around;
           flex: 1;
         }
 
-        .insta-app-top-row {
+        .insta-stat {
           display: flex;
+          flex-direction: column;
           align-items: center;
-          gap: var(--space-3);
-          flex-wrap: wrap;
+          line-height: 1.25;
         }
 
-        .insta-app-username {
+        .stat-num {
           font-family: var(--font-body);
-          font-size: var(--text-xl);
-          font-weight: 600;
-          color: var(--color-text-dark);
+          font-size: var(--text-lg);
+          font-weight: 700;
+          color: #262626;
         }
 
-        .insta-verified-badge {
-          background: #3897f0;
-          color: white;
-          width: 18px;
-          height: 18px;
-          border-radius: 50%;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 11px;
-          font-weight: bold;
+        .stat-label {
+          font-size: 13px;
+          color: #737373;
+          font-weight: 400;
         }
 
-        .insta-app-stats {
-          display: flex;
-          gap: var(--space-6);
-          padding: var(--space-2) 0;
-          border-top: 1px solid var(--color-cream-border);
-          border-bottom: 1px solid var(--color-cream-border);
-          font-size: var(--text-sm);
-        }
-
-        .insta-app-stats div {
-          display: flex;
-          gap: 4px;
-          color: var(--color-text-mid);
-        }
-
-        .insta-app-stats strong {
-          color: var(--color-text-dark);
-          font-weight: 600;
-        }
-
-        .insta-app-bio {
+        .insta-bio-block {
           display: flex;
           flex-direction: column;
           gap: 4px;
-          font-size: var(--text-sm);
-          color: var(--color-text-mid);
-          line-height: 1.6;
+          font-size: 14px;
+          color: #262626;
+          line-height: 1.5;
         }
 
-        .insta-app-bio strong {
-          color: var(--color-text-dark);
-          font-size: var(--text-base);
+        .insta-name-line {
+          display: flex;
+          align-items: center;
+          gap: 6px;
         }
 
-        .bio-link {
-          color: #00376b;
-          font-weight: 500;
-          margin-top: 2px;
+        .insta-real-name {
+          font-family: var(--font-body);
+          font-size: 15px;
+          font-weight: 600;
+          color: #000000;
         }
 
-        /* Instagram 3x3 Photo Grid Tiles */
-        .insta-app-grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: var(--space-2);
-          border-top: 1px solid var(--color-cream-border);
-          padding-top: var(--space-4);
+        .insta-badge-check {
+          background: #0095F6;
+          color: #FFFFFF;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          font-size: 10px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 800;
         }
 
-        .insta-tile-link {
-          display: block;
-          aspect-ratio: 1/1;
-          overflow: hidden;
-          border-radius: var(--radius-md);
+        .insta-handle-sub {
+          font-size: 13px;
+          color: #737373;
+          font-weight: 400;
+          margin-bottom: 4px;
         }
 
-        .insta-tile {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          overflow: hidden;
+        .insta-bio-text {
+          font-size: 14px;
+          color: #262626;
         }
 
-        .insta-tile img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform var(--transition-normal);
+        .insta-bio-url {
+          color: #00376B;
+          font-weight: 600;
+          font-size: 13px;
         }
 
-        .insta-tile-overlay {
-          position: absolute;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.4);
-          color: white;
+        .insta-actions-bar {
+          display: flex;
+          gap: 10px;
+          margin-top: 4px;
+        }
+
+        .insta-btn {
+          flex: 1;
+          height: 36px;
+          border-radius: 8px;
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: var(--space-4);
-          font-size: var(--text-lg);
-          opacity: 0;
-          transition: opacity var(--transition-fast);
+          font-size: 14px;
+          font-weight: 600;
+          transition: background 0.15s ease;
         }
 
-        .insta-tile:hover img {
-          transform: scale(1.08);
+        .insta-btn-primary {
+          background: #0095F6;
+          color: #FFFFFF;
         }
 
-        .insta-tile:hover .insta-tile-overlay {
-          opacity: 1;
+        .insta-btn-primary:hover {
+          background: #1877F2;
         }
 
-        .w-full { width: 100%; }
+        .insta-btn-secondary {
+          background: #EFEFEF;
+          color: #000000;
+        }
+
+        .insta-btn-secondary:hover {
+          background: #DBDBDB;
+        }
+
+        .insta-tab-strip {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid #DBDBDB;
+          margin-top: 8px;
+          padding-top: 10px;
+        }
+
+        .insta-tab {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          color: #000000;
+          border-top: 1px solid #000000;
+          margin-top: -11px;
+          padding-top: 10px;
+        }
+
+        .behold-widget-wrapper {
+          width: 100%;
+          overflow: hidden;
+          margin-top: 4px;
+        }
 
         /* ── RESPONSIVE ── */
         @media (max-width: 1024px) {
-          .insta-feed-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
-          .blog-preview-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
-          .services-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
+          .insta-feed-grid { grid-template-columns: repeat(2, 1fr); }
+          .blog-preview-grid { grid-template-columns: repeat(2, 1fr); }
+          .services-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 900px) {
-          .hero__inner {
-            grid-template-columns: 1fr;
-            text-align: center;
-          }
-
+          .hero__inner { grid-template-columns: 1fr; text-align: center; }
           .hero__ctas { justify-content: center; }
           .hero__trust { justify-content: center; }
           .hero__visual { display: none; }
           .hero__title { font-size: var(--text-5xl); }
-
-          .about-preview {
-            grid-template-columns: 1fr;
-          }
-
-          .about-preview__img-col {
-            max-width: 400px;
-            margin: 0 auto;
-          }
-
-          .consulting-grid {
-            grid-template-columns: 1fr;
-          }
+          .about-preview { grid-template-columns: 1fr; }
+          .about-preview__img-col { max-width: 400px; margin: 0 auto; }
+          .consulting-grid { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 640px) {
           .hero__title { font-size: var(--text-4xl); }
-          .insta-feed-grid { grid-template-columns: 1fr; }
-          .insta-profile-bar { flex-direction: column; text-align: center; }
-          .insta-profile-info { flex-direction: column; }
           .blog-preview-grid { grid-template-columns: 1fr; }
           .services-grid { grid-template-columns: 1fr; }
-          .contact-cta { text-align: center; }
-          .contact-cta__actions { justify-content: center; }
-          .contact-cta__title { font-size: var(--text-2xl); }
+          
+          /* Contact CTA mobile responsiveness */
+          .contact-cta { 
+            padding: var(--space-6); 
+            text-align: center; 
+            flex-direction: column;
+            align-items: center;
+          }
+          .contact-cta__actions { 
+            justify-content: center; 
+            width: 100%;
+            flex-direction: column;
+          }
+          .contact-cta__actions .btn { width: 100%; }
+          .contact-cta__title { font-size: var(--text-xl); }
+          
+          /* Native Insta App Card Mobile Fixes */
+          .insta-native-app-card {
+            padding: 16px;
+            border-radius: 16px;
+          }
+          .insta-header-row {
+            gap: 16px;
+          }
+          .insta-profile-photo {
+            width: 72px;
+            height: 72px;
+          }
+          .stat-num { font-size: 15px; }
+          .stat-label { font-size: 11px; }
+          .insta-actions-bar {
+            gap: 8px;
+          }
+          .insta-btn {
+            font-size: 13px;
+            height: 34px;
+          }
           .academy-teaser__features { justify-content: center; }
         }
       `})]})),Bi=[{year:`20XX`,title:`Beslenme ve Diyetetik Lisans`,institution:`Üniversite Adı`,desc:`Beslenme bilimleri alanında lisans eğitimi tamamlandı.`},{year:`20XX`,title:`Yüksek Lisans / Uzmanlık Eğitimi`,institution:`Kurum Adı`,desc:`Yeme davranışı ve kilo yönetimi üzerine ileri çalışmalar.`}],M=[{year:`20XX–20XX`,title:`Klinik Diyetisyen`,institution:`Kurum Adı`,desc:`Klinik beslenme alanında çalışmalar.`},{year:`20XX–Halen`,title:`Serbest Diyetisyen`,institution:`Ezgi Onaylı Küp Kliniği — Yalova`,desc:`Yüz yüze ve online beslenme danışmanlığı hizmetleri.`}],N=[{icon:(0,j.jsx)(ci,{size:22}),title:`Bütüncül Yaklaşım`,desc:`Beslenmeyi sadece yiyecek seçimleri olarak değil; duygular, alışkanlıklar, yaşam tarzı ve beden-zihin bütünlüğü çerçevesinde ele alıyorum.`},{icon:(0,j.jsx)(si,{size:22}),title:`Bilimsel Temel`,desc:`Her önerim güncel bilimsel literatüre dayanır. Kanıt temelli beslenme yaklaşımı, çalışmamın temelini oluşturur.`},{icon:(0,j.jsx)(ri,{size:22}),title:`Kişiye Özellik`,desc:`Genel kalıplar yerine, her danışanın kendine özgü ihtiyaçlarını, hedeflerini ve yaşam koşullarını dikkate alarak plan oluştururum.`}],Vi=()=>((0,_.useEffect)(()=>{let e=document.querySelectorAll(`.reveal`),t=new IntersectionObserver(e=>e.forEach(e=>{e.isIntersecting&&(e.target.classList.add(`visible`),t.unobserve(e.target))}),{threshold:.1});return e.forEach(e=>t.observe(e)),()=>t.disconnect()},[]),(0,j.jsxs)(j.Fragment,{children:[(0,j.jsxs)(Ur,{children:[(0,j.jsx)(`title`,{children:`Hakkımda | Diyetisyen Ezgi Onaylı Küp`}),(0,j.jsx)(`meta`,{name:`description`,content:`Diyetisyen Ezgi Onaylı Küp hakkında: eğitim geçmişi, mesleki deneyim ve beslenme danışmanlığı yaklaşımı.`})]}),(0,j.jsxs)(`header`,{className:`page-header`,children:[(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsx)(`p`,{className:`page-header__eyebrow animate-fade-up`,children:`Hakkımda`}),(0,j.jsxs)(`h1`,{className:`page-header__title animate-fade-up animate-fade-up-delay-1`,children:[`Diyetisyen`,(0,j.jsx)(`br`,{}),(0,j.jsx)(`span`,{className:`ezgi-script-title`,children:`Ezgi Onaylı Küp`})]}),(0,j.jsx)(`p`,{className:`page-header__subtitle animate-fade-up animate-fade-up-delay-2`,children:`Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak olduğuna inanıyorum.`})]}),(0,j.jsx)(`div`,{className:`page-header-leaf page-header-leaf--1`,"aria-hidden":`true`,children:`🌿`}),(0,j.jsx)(`div`,{className:`page-header-leaf page-header-leaf--2`,"aria-hidden":`true`,children:`🍋`})]}),(0,j.jsx)(`section`,{className:`section bg-white`,children:(0,j.jsxs)(`div`,{className:`container about-intro`,children:[(0,j.jsxs)(`div`,{className:`about-intro__img reveal`,children:[(0,j.jsx)(`img`,{src:Oi,alt:`Diyetisyen Ezgi Onaylı Küp — Klinik ortamında`,className:`about-intro__img-el`}),(0,j.jsx)(`div`,{className:`about-intro__img-deco`,"aria-hidden":`true`})]}),(0,j.jsxs)(`div`,{className:`about-intro__text reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow script-eyebrow`,children:`Merhaba! ♡`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Ben `,(0,j.jsx)(`span`,{className:`ezgi-script-title`,children:`Ezgi Onaylı.`})]}),(0,j.jsx)(`p`,{children:`Beslenme danışmanlığına bütüncül bir perspektiften bakıyorum. Yeme davranışının sadece beslenme bilgisiyle değil; duygular, alışkanlıklar ve yaşam tarzıyla da derinden bağlantılı olduğunu biliyorum.`}),(0,j.jsx)(`p`,{style:{marginTop:`var(--space-4)`},children:`Her danışanımla birlikte, onun yaşamına, ihtiyaçlarına ve hedeflerine gerçekten uyan bir yol haritası oluşturuyorum. Kısa vadeli sonuçlar değil, uzun vadeli ve sürdürülebilir değişim odağımın merkezinde yer alıyor.`}),(0,j.jsx)(`p`,{style:{marginTop:`var(--space-4)`},children:`Yalova'daki kliniğimde yüz yüze çalışıyorum; aynı zamanda Türkiye'nin her yerinden danışanlara online görüşme imkânı sunuyorum.`}),(0,j.jsxs)(`div`,{style:{display:`flex`,gap:`var(--space-3)`,marginTop:`var(--space-8)`,flexWrap:`wrap`},children:[(0,j.jsxs)(k,{to:`/danismanlik`,className:`btn btn-primary`,children:[`Danışmanlık Hizmetleri `,(0,j.jsx)(ei,{size:16})]}),(0,j.jsx)(k,{to:`/iletisim`,className:`btn btn-secondary`,children:`İletişime Geç`})]})]})]})}),(0,j.jsx)(`section`,{className:`section bg-cream-dark`,children:(0,j.jsxs)(`div`,{className:`container`,children:[(0,j.jsxs)(`div`,{className:`section-header section-header--center reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Çalışma Yaklaşımım`}),(0,j.jsxs)(`h2`,{className:`section-title`,children:[`Temel `,(0,j.jsx)(`em`,{children:`değerlerim`})]})]}),(0,j.jsx)(`div`,{className:`values-grid reveal`,children:N.map((e,t)=>(0,j.jsxs)(`div`,{className:`value-card`,children:[(0,j.jsx)(`div`,{className:`value-card__icon`,"aria-hidden":`true`,children:e.icon}),(0,j.jsx)(`h3`,{className:`value-card__title`,children:e.title}),(0,j.jsx)(`p`,{className:`value-card__desc`,children:e.desc})]},t))})]})}),(0,j.jsx)(`section`,{className:`section bg-white`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsxs)(`div`,{className:`about-timeline-grid`,children:[(0,j.jsxs)(`div`,{className:`reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Eğitim`}),(0,j.jsxs)(`h2`,{className:`section-title`,style:{fontSize:`var(--text-3xl)`},children:[`Akademik `,(0,j.jsx)(`em`,{children:`geçmiş`})]}),(0,j.jsx)(`div`,{className:`timeline`,style:{marginTop:`var(--space-8)`},children:Bi.map((e,t)=>(0,j.jsxs)(`div`,{className:`timeline-item`,children:[(0,j.jsx)(`div`,{className:`timeline-dot`,children:(0,j.jsx)(si,{size:14})}),(0,j.jsxs)(`div`,{className:`timeline-content`,children:[(0,j.jsx)(`span`,{className:`timeline-year`,children:e.year}),(0,j.jsx)(`h3`,{className:`timeline-title`,children:e.title}),(0,j.jsx)(`p`,{className:`timeline-institution`,children:e.institution}),(0,j.jsx)(`p`,{className:`timeline-desc`,children:e.desc})]})]},t))})]}),(0,j.jsxs)(`div`,{className:`reveal`,children:[(0,j.jsx)(`div`,{className:`section-eyebrow`,children:`Deneyim`}),(0,j.jsxs)(`h2`,{className:`section-title`,style:{fontSize:`var(--text-3xl)`},children:[`Mesleki `,(0,j.jsx)(`em`,{children:`geçmiş`})]}),(0,j.jsx)(`div`,{className:`timeline`,style:{marginTop:`var(--space-8)`},children:M.map((e,t)=>(0,j.jsxs)(`div`,{className:`timeline-item`,children:[(0,j.jsx)(`div`,{className:`timeline-dot`,children:(0,j.jsx)(ri,{size:14})}),(0,j.jsxs)(`div`,{className:`timeline-content`,children:[(0,j.jsx)(`span`,{className:`timeline-year`,children:e.year}),(0,j.jsx)(`h3`,{className:`timeline-title`,children:e.title}),(0,j.jsx)(`p`,{className:`timeline-institution`,children:e.institution}),(0,j.jsx)(`p`,{className:`timeline-desc`,children:e.desc})]})]},t))})]})]})})}),(0,j.jsx)(`section`,{className:`section--sm bg-aqua-light`,children:(0,j.jsx)(`div`,{className:`container`,children:(0,j.jsx)(`div`,{className:`mevzuat-note reveal`,children:(0,j.jsxs)(`p`,{children:[(0,j.jsx)(`strong`,{children:`Önemli Bilgi:`}),` Bu web sitesi, Sağlık Hizmetlerinde Tanıtım ve Bilgilendirme Faaliyetleri Hakkında Yönetmelik kapsamında hazırlanmıştır. Sitedeki tüm içerikler genel bilgilendirme amaçlıdır ve bireysel tıbbi tavsiye niteliği taşımaz. Kişiye özel değerlendirme için lütfen uzman diyetisyen desteği alın.`]})})})}),(0,j.jsx)(`style`,{children:`
