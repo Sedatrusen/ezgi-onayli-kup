@@ -520,15 +520,13 @@ export const Home: React.FC = () => {
           -webkit-mask-image: radial-gradient(ellipse 85% 85% at 0% 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,0.6) 55%, rgba(0,0,0,0) 90%);
         }
 
-        /* Bottom-Right Sea Waves & Sand Shore Overlay */
-        .hero-bottom-right-sea {
+       .hero-bottom-right-sea {
           position: absolute;
           right: 0;
-          bottom: 0;
-          width: 75vw;
-          height: 70vh;
-          max-width: 750px;
-          max-height: 650px;
+          top: 0;
+          width: 60vw;
+          max-width: 800px;
+          height: 100%;
           pointer-events: none;
           z-index: 1;
           overflow: hidden;
@@ -538,11 +536,22 @@ export const Home: React.FC = () => {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          object-position: right 65%;
-          opacity: 0.9;
-          filter: saturate(1.3) contrast(1.08) brightness(0.97);
-          mask-image: radial-gradient(ellipse 85% 75% at 100% 100%, rgba(0,0,0,1) 15%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 85%);
-          -webkit-mask-image: radial-gradient(ellipse 85% 75% at 100% 100%, rgba(0,0,0,1) 15%, rgba(0,0,0,0.7) 45%, rgba(0,0,0,0) 85%);
+          object-position: center 20%;
+          opacity: 0.82;
+          filter: saturate(1.2) contrast(1.05) brightness(1.0);
+          /* Fade from left edge: image fades into background. Also fade from bottom to hide sand */
+          mask-image: linear-gradient(
+            to left,
+            rgba(0,0,0,0.9) 0%,
+            rgba(0,0,0,0.55) 45%,
+            rgba(0,0,0,0) 70%
+          );
+          -webkit-mask-image: linear-gradient(
+            to left,
+            rgba(0,0,0,0.9) 0%,
+            rgba(0,0,0,0.55) 45%,
+            rgba(0,0,0,0) 70%
+          );
         }
 
         .hero__inner {
