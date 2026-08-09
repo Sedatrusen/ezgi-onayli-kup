@@ -13,11 +13,11 @@ export const Footer: React.FC = () => {
           {/* Brand */}
           <div className="footer__brand">
             <div className="footer__logo">
-              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.4"/>
-                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.2"/>
-                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.5"/>
-                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              <svg width="36" height="36" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+                <path d="M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z" fill="#E5C564" opacity="0.9" />
+                <path d="M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z" fill="#F7E9B0" opacity="0.8" />
+                <path d="M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z" fill="#67826B" />
+                <path d="M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z" fill="#4D6651" />
               </svg>
               <span>Ezgi Onaylı Küp</span>
             </div>

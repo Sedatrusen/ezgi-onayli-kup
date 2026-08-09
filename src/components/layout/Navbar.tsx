@@ -35,25 +35,12 @@ export const Navbar: React.FC = () => {
   return (
     <>
       <nav
-        className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}
+        className={`navbar${scrolled ? ' navbar--scrolled' : ''}${pathname === '/akademi' ? ' navbar--dark-page' : ''}`}
         aria-label="Ana navigasyon"
       >
         <div className="container navbar__inner">
-          {/* Logo */}
-          <Link to="/" className="navbar__logo" aria-label="Ana sayfaya git">
-            <div className="logo-mark">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-                <circle cx="16" cy="16" r="15" stroke="currentColor" strokeWidth="1.5" opacity="0.3"/>
-                <path d="M16 6 C16 6 22 10 22 16 C22 22 16 26 16 26 C16 26 10 22 10 16 C10 10 16 6 16 6Z" fill="currentColor" opacity="0.15"/>
-                <path d="M16 9 C16 9 20 12 20 16 C20 20 16 23 16 23 C16 23 12 20 12 16 C12 12 16 9 16 9Z" fill="currentColor" opacity="0.4"/>
-                <circle cx="16" cy="16" r="3" fill="currentColor"/>
-              </svg>
-            </div>
-            <div className="logo-text">
-              <span className="logo-text__name">Ezgi Onaylı Küp</span>
-              <span className="logo-text__title">Diyetisyen</span>
-            </div>
-          </Link>
+          {/* Empty spacer for alignment */}
+          <div className="navbar__logo-spacer"></div>
 
           {/* Desktop Nav */}
           <ul className="navbar__links" role="list">
@@ -120,6 +107,32 @@ export const Navbar: React.FC = () => {
           z-index: 1000;
           height: var(--navbar-height);
           transition: background var(--transition-normal), box-shadow var(--transition-normal);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .navbar__link {
+          color: rgba(250, 247, 242, 0.85);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .navbar__link:hover,
+        .navbar--dark-page:not(.navbar--scrolled) .navbar__link--active {
+          color: var(--color-white);
+          background: rgba(255, 255, 255, 0.12);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .logo-text__name {
+          color: var(--color-cream);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .logo-text__title {
+          color: rgba(250, 247, 242, 0.65);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .logo-mark {
+          color: var(--color-aqua-light);
+        }
+
+        .navbar--dark-page:not(.navbar--scrolled) .navbar__burger {
+          color: var(--color-cream);
         }
 
         .navbar--scrolled {
@@ -279,9 +292,40 @@ export const Navbar: React.FC = () => {
           margin-top: var(--space-4);
         }
 
+        .navbar__inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 100%;
+        }
+
         @media (max-width: 900px) {
           .navbar__links, .navbar__cta { display: none; }
-          .navbar__burger { display: flex; }
+          .navbar__logo { display: none; }
+          .navbar__burger { 
+            display: flex;
+            margin-left: auto;
+            z-index: 1001;
+            padding: 12px;
+          }
+        }
+
+        .mobile-menu {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(250, 246, 240, 0.98);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+          z-index: 999;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: calc(var(--navbar-height) + var(--space-4)) var(--space-6) var(--space-8);
+          animation: fadeIn 0.25s ease-out;
         }
 
         @media (max-width: 640px) {
