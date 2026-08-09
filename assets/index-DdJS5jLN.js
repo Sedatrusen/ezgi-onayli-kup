@@ -553,10 +553,10 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
        .hero-bottom-right-sea {
           position: absolute;
           right: 0;
-          top: 0;
-          width: 60vw;
-          max-width: 800px;
-          height: 100%;
+          top: 42%;
+          bottom: 0;
+          width: 52vw;
+          max-width: 780px;
           pointer-events: none;
           z-index: 1;
           overflow: hidden;
@@ -566,22 +566,16 @@ Davranış değişikliği sürecini anlamak ve bu süreci kendi yaşamınıza uy
           width: 100%;
           height: 100%;
           object-fit: cover;
-          object-position: center 20%;
-          opacity: 0.82;
-          filter: saturate(1.2) contrast(1.05) brightness(1.0);
-          /* Fade from left edge: image fades into background. Also fade from bottom to hide sand */
-          mask-image: linear-gradient(
-            to left,
-            rgba(0,0,0,0.9) 0%,
-            rgba(0,0,0,0.55) 45%,
-            rgba(0,0,0,0) 70%
-          );
-          -webkit-mask-image: linear-gradient(
-            to left,
-            rgba(0,0,0,0.9) 0%,
-            rgba(0,0,0,0.55) 45%,
-            rgba(0,0,0,0) 70%
-          );
+          object-position: right center;
+          opacity: 0.92;
+          filter: contrast(1.04) saturate(1.15);
+          /* Smooth edge fade starting from edges */
+          mask-image: linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%),
+                      linear-gradient(to top, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+          mask-composite: intersect;
+          -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%),
+                              linear-gradient(to top, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+          -webkit-mask-composite: source-in;
         }
 
         .hero__inner {
