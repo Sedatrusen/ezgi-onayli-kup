@@ -494,17 +494,15 @@ export const Home: React.FC = () => {
           background: #F9F5EF;
         }
 
-        /* Top-Left Olive Branch Overlay */
+        /* Top-Left Olive Branch Overlay - Stays fixed over scrolled navbar */
         .hero-top-left-plant {
-          position: absolute;
+          position: fixed;
           top: 0;
           left: 0;
-          width: 50vw;
-          height: 60vh;
-          max-width: 480px;
-          max-height: 480px;
+          width: 320px;
+          height: 320px;
           pointer-events: none;
-          z-index: 2;
+          z-index: 1001;
           overflow: hidden;
         }
 
