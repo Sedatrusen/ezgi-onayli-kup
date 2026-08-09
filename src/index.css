@@ -27,7 +27,7 @@
   /* Typography */
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-script:  'Caveat', 'Great Vibes', 'Sacramento', cursive;
+  --font-script:  'Alex Brush', 'Dancing Script', 'Caveat', 'Great Vibes', 'Sacramento', cursive;
 
   /* Font sizes */
   --text-xs:   0.75rem;

@@ -43,8 +43,8 @@ export const Academy: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Ezgi Onaylı Akademi | Diyetisyen Ezgi Onaylı Küp</title>
-        <meta name="description" content="Ezgi Onaylı Akademi — Beslenme eğitimleri, e-kitaplar, video rehberler ve grup çalışmaları. Genel bilgilendirme amaçlı dijital içerikler." />
+        <title>Ezgi Onaylı Küp Akademi | Diyetisyen Ezgi Onaylı Küp</title>
+        <meta name="description" content="Ezgi Onaylı Küp Akademi — Beslenme eğitimleri, e-kitaplar, video rehberler ve grup çalışmaları. Genel bilgilendirme amaçlı dijital içerikler." />
       </Helmet>
 
       {/* ── PAGE HEADER ── */}
@@ -53,7 +53,7 @@ export const Academy: React.FC = () => {
           <div className="academy-header__content animate-fade-up">
             <span className="badge badge-lemon">Dijital İçerikler</span>
             <h1 className="academy-header__title">
-              Ezgi Onaylı <em>Akademi</em>
+              Ezgi Onaylı Küp <em>Akademi</em>
             </h1>
             <p className="academy-header__subtitle">
               Kişiye özel danışmanlık hizmetinden bağımsız olarak, 

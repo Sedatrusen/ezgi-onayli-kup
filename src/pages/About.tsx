@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { ArrowRight, GraduationCap, Briefcase, Heart } from 'lucide-react';
-import ezgiPortrait from '../assets/ezgi-portrait.png';
+import { ArrowRight, GraduationCap, Briefcase, Sparkles } from 'lucide-react';
+import ezgiPortrait from '../assets/ezgi-portrait-new.jpg';
 
 const education = [
   { year: '20XX', title: 'Beslenme ve Diyetetik Lisans', institution: 'Üniversite Adı', desc: 'Beslenme bilimleri alanında lisans eğitimi tamamlandı.' },
@@ -15,7 +15,7 @@ const career = [
 ];
 
 const values = [
-  { icon: <Heart size={22} />, title: 'Bütüncül Yaklaşım', desc: 'Beslenmeyi sadece yiyecek seçimleri olarak değil; duygular, alışkanlıklar, yaşam tarzı ve beden-zihin bütünlüğü çerçevesinde ele alıyorum.' },
+  { icon: <Sparkles size={22} />, title: 'Bütüncül Yaklaşım', desc: 'Beslenmeyi sadece yiyecek seçimleri olarak değil; duygular, alışkanlıklar, yaşam tarzı ve beden-zihin bütünlüğü çerçevesinde ele alıyorum.' },
   { icon: <GraduationCap size={22} />, title: 'Bilimsel Temel', desc: 'Her önerim güncel bilimsel literatüre dayanır. Kanıt temelli beslenme yaklaşımı, çalışmamın temelini oluşturur.' },
   { icon: <Briefcase size={22} />, title: 'Kişiye Özellik', desc: 'Genel kalıplar yerine, her danışanın kendine özgü ihtiyaçlarını, hedeflerini ve yaşam koşullarını dikkate alarak plan oluştururum.' },
 ];
@@ -48,7 +48,7 @@ export const About: React.FC = () => {
             Diyetisyen<br /><span className="ezgi-script-title">Ezgi Onaylı Küp</span>
           </h1>
           <p className="page-header__subtitle animate-fade-up animate-fade-up-delay-2">
-            Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak olduğuna inanıyorum.
+            Yasaklarla değil, farkındalıkla değişim. Sürdürülebilir, dengeli ve besleyici bir yaşam tarzı.
           </p>
         </div>
         <div className="page-header-leaf page-header-leaf--1" aria-hidden="true">🌿</div>
@@ -67,17 +67,19 @@ export const About: React.FC = () => {
             <div className="about-intro__img-deco" aria-hidden="true" />
           </div>
           <div className="about-intro__text reveal">
-            <div className="section-eyebrow script-eyebrow">Merhaba! ♡</div>
-            <h2 className="section-title">Ben <span className="ezgi-script-title">Ezgi Onaylı.</span></h2>
+            <div className="section-eyebrow script-eyebrow">Merhaba!</div>
+            <h2 className="section-title">Ben <span className="ezgi-script-title">Ezgi Onaylı Küp.</span></h2>
             <p>
-              Beslenme danışmanlığına bütüncül bir perspektiften bakıyorum. 
-              Yeme davranışının sadece beslenme bilgisiyle değil; duygular, 
-              alışkanlıklar ve yaşam tarzıyla da derinden bağlantılı olduğunu biliyorum.
+              Sağlıklı bir yaşamın, yasaklarla değil farkındalıkla mümkün olduğuna inanıyorum.
             </p>
-            <p style={{ marginTop: 'var(--space-4)' }}>
-              Her danışanımla birlikte, onun yaşamına, ihtiyaçlarına ve hedeflerine 
-              gerçekten uyan bir yol haritası oluşturuyorum. Kısa vadeli sonuçlar değil, 
-              uzun vadeli ve sürdürülebilir değişim odağımın merkezinde yer alıyor.
+            <p style={{ marginTop: 'var(--space-3)' }}>
+              Sürdürülebilir, dengeli ve besleyici bir yaşam tarzı için buradayım.
+            </p>
+            <p style={{ marginTop: 'var(--space-3)' }}>
+              Bilimsel yaklaşım, gerçekçi planlar ve sana özel destekle; sadece kilo vermeyi değil, kendinle barışık bir yaşamı hedefliyoruz.
+            </p>
+            <p style={{ marginTop: 'var(--space-3)' }}>
+              Birlikte, sana iyi gelen seçimlerle güçlü bir dönüşüm yaratabiliriz.
             </p>
             <p style={{ marginTop: 'var(--space-4)' }}>
               Yalova'daki kliniğimde yüz yüze çalışıyorum; aynı zamanda Türkiye'nin 

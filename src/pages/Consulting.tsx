@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight, MapPin, Monitor, CheckCircle, Clock, Users } from 'lucide-react';
-import ezgiPortrait from '../assets/ezgi-portrait.png';
+import ezgiPortrait from '../assets/ezgi-portrait-new.jpg';
 import onlineConsulting from '../assets/online-consulting.png';
 
 const faceToFaceFeatures = [

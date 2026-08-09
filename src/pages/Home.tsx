@@ -2,10 +2,11 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import {
-  ArrowRight, Leaf, Monitor, MapPin, Heart, BookOpen,
-  Video, Users, Star, CheckCircle
+  ArrowRight, Leaf, Monitor, MapPin, Sparkles, BookOpen,
+  Video, Users, Star, CheckCircle, ShieldCheck, ClipboardCheck, TrendingUp, Calendar
 } from 'lucide-react';
-import ezgiPortrait from '../assets/ezgi-portrait.png';
+import ezgiPortrait from '../assets/ezgi-portrait-new.jpg';
+import lemonMark from '../assets/lemon-mark.svg';
 import faceToFace from '../assets/face-to-face.png';
 import onlineConsulting from '../assets/online-consulting.png';
 import instaProfile from '../assets/insta-profile.png';
@@ -15,7 +16,7 @@ import { blogPosts } from '../data/posts';
 
 const services = [
   {
-    icon: <Heart size={24} />,
+    icon: <Sparkles size={24} />,
     title: 'Sürdürülebilir Kilo Yönetimi',
     desc: 'Kısa vadeli değil, uzun vadeli ve sürdürülebilir çözümler.'
   },
@@ -40,7 +41,7 @@ const services = [
     desc: 'Hedeflerinize, yaşamınıza ve ihtiyaçlarınıza özel beslenme planları.'
   },
   {
-    icon: <Heart size={24} />,
+    icon: <ShieldCheck size={24} />,
     title: 'Yeme Davranışı Danışmanlığı',
     desc: 'Duygusal yeme, sağlıklı alışkanlıklar ve farkındalık üzerine çalışmalar.'
   },
@@ -96,12 +97,7 @@ export const Home: React.FC = () => {
             {/* Centered Brand Header (Mobile & Desktop) */}
             <div className="hero-centered-brand text-center mb-6">
               <div className="hero-lemon-icon-mark mb-2">
-                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-                  <path d="M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z" fill="#E5C564" opacity="0.9" />
-                  <path d="M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z" fill="#F7E9B0" opacity="0.8" />
-                  <path d="M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z" fill="#67826B" />
-                  <path d="M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z" fill="#4D6651" />
-                </svg>
+                <img src={lemonMark} alt="Diyetisyen Ezgi Onaylı Küp Logosu" className="hero-lemon-img" />
               </div>
               <p className="hero-brand-subtitle">D İ Y E T İ S Y E N</p>
               <h1 className="hero-brand-title">Ezgi Onaylı Küp</h1>
@@ -184,34 +180,73 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* ── ABOUT PREVIEW ── */}
-      <section className="section" aria-label="Hakkımda kısa tanıtım">
-        <div className="container about-preview">
-          <div className="about-preview__img-col reveal">
-            <div className="about-preview__img-wrapper">
-              <img
-                src={ezgiPortrait}
-                alt="Diyetisyen Ezgi Onaylı Küp — Profesyonel portre"
-                className="about-preview__img"
-              />
+      {/* ── ABOUT PREVIEW (MERHABA SECTION) ── */}
+      <section className="section about-section" aria-label="Hakkımda ve beslenme felsefem">
+        <div className="container">
+          <div className="about-preview">
+            <div className="about-preview__img-col reveal">
+              <div className="about-preview__img-wrapper">
+                <img
+                  src={ezgiPortrait}
+                  alt="Diyetisyen Ezgi Onaylı Küp — Profesyonel portre"
+                  className="about-preview__img"
+                />
+                <div className="about-preview__img-bg-deco" aria-hidden="true" />
+              </div>
+            </div>
+
+            <div className="about-preview__content reveal">
+              <div className="about-preview__header mb-6">
+                <div className="section-eyebrow script-eyebrow mb-1">Merhaba!</div>
+                <h2 className="section-title mb-3">
+                  Ben Diyetisyen<br />
+                  <span className="ezgi-script-title">Ezgi Onaylı Küp.</span>
+                </h2>
+                <div className="about-motto-pill mt-3">
+                  <Leaf size={14} color="var(--color-sage-dark)" />
+                  <span>Yasaklarla değil, farkındalıkla değişim.</span>
+                </div>
+              </div>
+
+              <div className="about-preview__body mb-6">
+                <p>
+                  Sağlıklı bir yaşamın, yasaklarla değil farkındalıkla mümkün olduğuna inanıyorum. Sürdürülebilir, dengeli ve besleyici bir yaşam tarzı için buradayım.
+                </p>
+                <p>
+                  Bilimsel yaklaşım, gerçekçi planlar ve sana özel destekle; sadece kilo vermeyi değil, kendinle barışık bir yaşamı hedefliyoruz. Birlikte, sana iyi gelen seçimlerle güçlü bir dönüşüm yaratabiliriz.
+                </p>
+              </div>
+
+              {/* Poster Quote Badge Box */}
+              <div className="poster-quote-box mb-8">
+                <p className="poster-quote-text">
+                  "Sadece kilo vermek değil, <em>kendinle barışmak.</em>"
+                </p>
+              </div>
+
+              <div className="about-preview__actions pt-2">
+                <Link to="/hakkimda" className="btn btn-sage btn--lg" id="about-preview-btn">
+                  Hakkımda Daha Fazla
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
             </div>
           </div>
 
-          <div className="about-preview__content reveal">
-            <div className="section-eyebrow script-eyebrow">Merhaba! ♡</div>
-            <h2 className="section-title">Ben Diyetisyen<br /><span className="ezgi-script-title">Ezgi Onaylı.</span></h2>
-            <p className="about-preview__text">
-              Beslenmenin sadece kilo vermek değil, bedeni ve zihni dengeye kavuşturmak
-              olduğuna inanıyorum.
-            </p>
-            <p className="about-preview__text">
-              Her danışanın yaşamına, ihtiyaçlarına ve hedeflerine uygun sürdürülebilir
-              bir yol oluşturmak ve bu yolda en büyük desteğin yanında olmak en büyük amacım.
-            </p>
-            <Link to="/hakkimda" className="btn btn-sage mt-6" id="about-preview-btn">
-              Hakkımda Daha Fazla
-              <ArrowRight size={16} />
-            </Link>
+          {/* 4 Feature Columns from poster */}
+          <div className="poster-features-grid reveal mt-16">
+            {[
+              { icon: <Leaf size={22} />, title: 'KİŞİYE ÖZEL BESLENME PLANI', desc: 'Sana ve yaşam tarzına özel besleyici beslenme planı' },
+              { icon: <ClipboardCheck size={22} />, title: 'DÜZENLİ TAKİP VE DESTEK', desc: 'Haftalık seanslar ve kesintisiz iletişim desteği' },
+              { icon: <TrendingUp size={22} />, title: 'BİLİMSEL VE SÜRDÜRÜLEBİLİR', desc: 'Kanıta dayalı, kalıcı sonuç hedefleyen yaklaşım' },
+              { icon: <Sparkles size={22} />, title: 'SAĞLIKLI YAŞAM', desc: 'Bedeni ve zihni dengeye kavuşturan bütüncül yaşam' },
+            ].map((f, i) => (
+              <div key={i} className="poster-feature-card">
+                <div className="poster-feature-icon">{f.icon}</div>
+                <h4 className="poster-feature-title">{f.title}</h4>
+                <p className="poster-feature-desc">{f.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -279,6 +314,68 @@ export const Home: React.FC = () => {
                   Detaylı Bilgi <ArrowRight size={15} />
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROGRAM OPTIONS PACKAGES ── */}
+      <section className="section bg-white" aria-label="Program seçeneklerimiz">
+        <div className="container">
+          <div className="section-header section-header--center reveal">
+            <div className="section-eyebrow">Beslenme Paketleri</div>
+            <h2 className="section-title">Program <em>Seçeneklerimiz</em></h2>
+            <p className="section-subtitle">
+              Hedeflerinize ve yaşam temponuza en uygun süreyi seçerek hemen danışmanlığa başlayabilirsiniz.
+            </p>
+          </div>
+
+          <div className="program-options-grid reveal">
+            {[
+              {
+                duration: '1 AYLIK PROGRAM',
+                sessions: '4 SEANS',
+                popular: false,
+              },
+              {
+                duration: '2 AYLIK PROGRAM',
+                sessions: '8 SEANS',
+                popular: true,
+              },
+              {
+                duration: '3 AYLIK PROGRAM',
+                sessions: '12 SEANS',
+                popular: false,
+              },
+            ].map((pkg, idx) => (
+              <div key={idx} className={`program-card ${pkg.popular ? 'program-card--popular' : ''}`}>
+                {pkg.popular && <span className="program-card__badge-popular">En Çok Tercih Edilen</span>}
+                <div className="program-card__duration">{pkg.duration}</div>
+                
+                <div className="program-card__sessions-badge">
+                  <Calendar size={18} />
+                  <span>{pkg.sessions}</span>
+                </div>
+
+                <div className="program-card__divider" />
+
+                <a
+                  href="https://wa.me/905XXXXXXXXX"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`btn w-full justify-center ${pkg.popular ? 'btn-primary' : 'btn-secondary'}`}
+                  id={`program-btn-${idx+1}`}
+                >
+                  Bilgi Al & Başla <ArrowRight size={16} />
+                </a>
+              </div>
+            ))}
+          </div>
+
+          <div className="program-options-footer text-center reveal mt-8">
+            <div className="program-footer-pill">
+              <Leaf size={16} color="var(--color-sage-dark)" />
+              <span>Tüm programlarımızda haftalık düzenli seanslar ile takip, motivasyon ve kalıcı sonuç hedeflenir.</span>
             </div>
           </div>
         </div>
@@ -413,7 +510,7 @@ export const Home: React.FC = () => {
             <div className="behold-widget-wrapper">
               <figure className="behold-container">
                 {/* @ts-ignore */}
-                <behold-widget feed-id="ohkBhtDHSnUneRor9dTg"></behold-widget>
+                <behold-widget feed-id="5tcJsdosJ80J99KIq1dP"></behold-widget>
               </figure>
             </div>
           </div>
@@ -421,13 +518,13 @@ export const Home: React.FC = () => {
       </section>
 
       {/* ── ACADEMY TEASER ── */}
-      <section className="section academy-teaser" aria-label="Ezgi Onaylı Akademi">
+      <section className="section academy-teaser" aria-label="Ezgi Onaylı Küp Akademi">
         <div className="container">
           <div className="academy-teaser__inner reveal">
             <div className="academy-teaser__content">
               <span className="badge badge-lemon">Yakında</span>
               <h2 className="section-title" style={{ color: 'white' }}>
-                Ezgi Onaylı <em style={{ color: 'var(--color-lemon)' }}>Akademi</em>
+                Ezgi Onaylı Küp <em style={{ color: 'var(--color-lemon)' }}>Akademi</em>
               </h2>
               <p style={{ color: 'rgba(250,247,242,0.75)', fontSize: 'var(--text-lg)', lineHeight: 1.7, marginBottom: 'var(--space-6)' }}>
                 E-kitaplar, beslenme rehberleri, video eğitimler ve çok daha fazlası
@@ -460,7 +557,7 @@ export const Home: React.FC = () => {
             <div>
               <h2 className="contact-cta__title">
                 Benimle iletişime geç,<br />
-                <em>sağlıklı ve mutlu bir sen'e ilk adımı at.</em> ♡
+                <em>sağlıklı ve mutlu bir sen'e ilk adımı at.</em>
               </h2>
             </div>
             <div className="contact-cta__actions">
@@ -566,6 +663,21 @@ export const Home: React.FC = () => {
           align-items: center;
         }
 
+        .hero-lemon-icon-mark {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+        }
+
+        .hero-lemon-img {
+          width: 34px;
+          height: 34px;
+          object-fit: contain;
+          display: block;
+          margin: 0 auto;
+        }
+
         .hero-brand-logo {
           height: 48px;
           width: auto;
@@ -581,10 +693,10 @@ export const Home: React.FC = () => {
         }
 
         .hero-brand-title {
-          font-family: var(--font-script);
-          font-size: 3.2rem;
+          font-family: 'Alex Brush', cursive;
+          font-size: 4rem;
           color: var(--color-text-dark);
-          line-height: 1.1;
+          line-height: 1.15;
           font-weight: 400;
         }
 
@@ -894,49 +1006,257 @@ export const Home: React.FC = () => {
           line-height: 1.65;
         }
 
-        /* ── ABOUT PREVIEW ── */
+        /* ── ABOUT PREVIEW (MERHABA SECTION) ── */
+        .about-section {
+          padding-top: var(--space-16);
+          padding-bottom: var(--space-16);
+        }
+
         .about-preview {
           display: grid;
-          grid-template-columns: 1fr 1.1fr;
+          grid-template-columns: 0.9fr 1.1fr;
           gap: var(--space-16);
           align-items: center;
         }
 
         .about-preview__img-wrapper {
           position: relative;
+          z-index: 1;
         }
 
         .about-preview__img {
           width: 100%;
+          max-height: 480px;
           border-radius: var(--radius-xl);
-          box-shadow: var(--shadow-xl);
+          box-shadow: 0 20px 48px rgba(44, 62, 53, 0.12);
           object-fit: cover;
-          aspect-ratio: 3/4;
-          max-height: 560px;
+          display: block;
+          position: relative;
+          z-index: 2;
         }
 
-        .about-preview__badge {
+        .about-preview__img-bg-deco {
           position: absolute;
-          bottom: -20px;
-          right: -20px;
+          top: 16px;
+          left: -16px;
+          right: 16px;
+          bottom: -16px;
+          background: rgba(229, 197, 100, 0.22);
+          border-radius: var(--radius-xl);
+          z-index: 1;
+        }
+
+        .about-preview__content {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .about-motto-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: linear-gradient(135deg, rgba(229, 197, 100, 0.3), rgba(247, 233, 176, 0.4));
+          border: 1px solid rgba(229, 197, 100, 0.5);
+          padding: 6px 14px;
+          border-radius: var(--radius-full);
+          font-size: var(--text-xs);
+          font-weight: 600;
+          color: var(--color-sage-dark);
+          letter-spacing: 0.02em;
+          width: fit-content;
+        }
+
+        .about-preview__body p {
+          font-size: 1.05rem;
+          color: var(--color-text-mid);
+          line-height: 1.8;
+          margin-bottom: var(--space-4);
+        }
+
+        .about-preview__body p:last-child {
+          margin-bottom: 0;
+        }
+
+        /* Poster elements */
+        .poster-quote-box {
+          background: linear-gradient(135deg, rgba(229,197,100,0.16), rgba(103,130,107,0.08));
+          border-left: 4px solid var(--color-sage-dark);
+          padding: var(--space-5) var(--space-6);
+          border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+          margin-top: var(--space-6);
+          margin-bottom: var(--space-6);
+        }
+
+        .poster-quote-text {
+          font-family: var(--font-display);
+          font-size: var(--text-xl);
+          color: var(--color-text-dark);
+          font-weight: 500;
+          line-height: 1.4;
+          margin: 0;
+        }
+
+        .poster-quote-text em {
+          font-family: 'Alex Brush', cursive;
+          font-size: 2.3rem;
+          color: var(--color-sage-dark);
+          font-style: normal;
+          display: inline-block;
+          margin-left: 6px;
+        }
+
+        .about-preview__actions {
+          margin-top: var(--space-4);
+        }
+
+        .poster-features-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: var(--space-5);
+        }
+
+        .poster-feature-card {
           background: var(--color-white);
           border: 1px solid var(--color-cream-border);
-          border-radius: var(--radius-md);
-          padding: var(--space-3) var(--space-4);
+          border-radius: var(--radius-lg);
+          padding: var(--space-5);
+          text-align: center;
           display: flex;
+          flex-direction: column;
           align-items: center;
-          gap: var(--space-2);
-          font-size: var(--text-sm);
-          font-weight: 500;
-          color: var(--color-aqua-dark);
+          gap: var(--space-3);
+          box-shadow: var(--shadow-sm);
+          transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+        }
+
+        .poster-feature-card:hover {
+          transform: translateY(-3px);
           box-shadow: var(--shadow-md);
         }
 
-        .about-preview__text {
-          font-size: var(--text-lg);
+        .poster-feature-icon {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          background: rgba(103, 130, 107, 0.1);
+          color: var(--color-sage-dark);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .poster-feature-title {
+          font-size: var(--text-xs);
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          color: var(--color-text-dark);
+          line-height: 1.35;
+        }
+
+        .poster-feature-desc {
+          font-size: var(--text-xs);
           color: var(--color-text-mid);
-          line-height: 1.7;
+          line-height: 1.5;
+        }
+
+        /* ── PROGRAM OPTIONS PACKAGES ── */
+        .program-options-grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: var(--space-8);
+          max-width: 1040px;
+          margin: 0 auto;
+          align-items: stretch;
+        }
+
+        .program-card {
+          background: var(--color-white);
+          border: 1.5px solid var(--color-cream-border);
+          border-radius: var(--radius-xl);
+          padding: var(--space-8) var(--space-6);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          position: relative;
+          transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+        }
+
+        .program-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--shadow-lg);
+        }
+
+        .program-card--popular {
+          border-color: var(--color-sage);
+          background: linear-gradient(180deg, #FFFFFF 0%, rgba(240, 246, 243, 0.6) 100%);
+          box-shadow: 0 10px 30px rgba(103, 130, 107, 0.12);
+        }
+
+        .program-card__badge-popular {
+          position: absolute;
+          top: -14px;
+          background: var(--color-sage-dark);
+          color: white;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          padding: 4px 14px;
+          border-radius: var(--radius-full);
+        }
+
+        .program-card__duration {
+          font-family: var(--font-display);
+          font-size: var(--text-xl);
+          font-weight: 700;
+          color: var(--color-text-dark);
+          letter-spacing: 0.04em;
           margin-bottom: var(--space-4);
+          margin-top: var(--space-2);
+        }
+
+        .program-card__sessions-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          background: rgba(103, 130, 107, 0.1);
+          color: var(--color-sage-dark);
+          font-weight: 700;
+          font-size: var(--text-base);
+          padding: var(--space-3) var(--space-6);
+          border-radius: var(--radius-lg);
+          margin-bottom: var(--space-4);
+        }
+
+        .program-card__divider {
+          width: 60px;
+          height: 1px;
+          background: var(--color-cream-border);
+          margin: var(--space-2) auto var(--space-4);
+        }
+
+        .program-card__price {
+          font-family: var(--font-body);
+          font-size: var(--text-3xl);
+          font-weight: 800;
+          color: var(--color-text-dark);
+          margin-bottom: var(--space-6);
+          letter-spacing: -0.02em;
+        }
+
+        .program-footer-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          background: var(--color-cream-dark);
+          border: 1px solid var(--color-cream-border);
+          padding: var(--space-4) var(--space-6);
+          border-radius: var(--radius-full);
+          font-size: var(--text-sm);
+          color: var(--color-text-mid);
+          font-weight: 500;
+          max-width: 720px;
         }
 
         /* ── CONSULTING ── */
@@ -1382,15 +1702,29 @@ export const Home: React.FC = () => {
           .hero__trust { justify-content: center; }
           .hero__visual { display: none; }
           .hero__title { font-size: var(--text-5xl); }
-          .about-preview { grid-template-columns: 1fr; }
-          .about-preview__img-col { max-width: 400px; margin: 0 auto; }
+          .about-preview { grid-template-columns: 1fr; gap: var(--space-8); text-align: center; }
+          .about-preview__img-col { max-width: 380px; margin: 0 auto; }
+          .about-preview__img-bg-deco { left: -8px; bottom: -8px; }
+          .poster-quote-box {
+            border-left: none;
+            border-top: 3px solid var(--color-sage-dark);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+          }
+          .about-preview__actions {
+            display: flex;
+            justify-content: center;
+          }
           .consulting-grid { grid-template-columns: 1fr; }
+          .poster-features-grid { grid-template-columns: repeat(2, 1fr); }
+          .program-options-grid { grid-template-columns: 1fr; max-width: 440px; }
         }
 
         @media (max-width: 640px) {
           .hero__title { font-size: var(--text-4xl); }
           .blog-preview-grid { grid-template-columns: 1fr; }
           .services-grid { grid-template-columns: 1fr; }
+          .poster-features-grid { grid-template-columns: 1fr; }
           
           /* Contact CTA mobile responsiveness */
           .contact-cta { 
