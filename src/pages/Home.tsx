@@ -636,14 +636,14 @@ export const Home: React.FC = () => {
           height: 100%;
           object-fit: cover;
           object-position: right center;
-          opacity: 0.92;
-          filter: contrast(1.04) saturate(1.15);
-          /* Smooth edge fade starting from edges */
-          mask-image: linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%),
-                      linear-gradient(to top, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+          opacity: 0.72;
+          filter: contrast(1.03) saturate(1.08);
+          /* Soft edge fade */
+          mask-image: linear-gradient(to left, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0) 95%),
+                      linear-gradient(to top, rgba(0,0,0,0.95) 40%, rgba(0,0,0,0) 95%);
           mask-composite: intersect;
-          -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%),
-                              linear-gradient(to top, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+          -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0) 95%),
+                              linear-gradient(to top, rgba(0,0,0,0.95) 40%, rgba(0,0,0,0) 95%);
           -webkit-mask-composite: source-in;
         }
 
