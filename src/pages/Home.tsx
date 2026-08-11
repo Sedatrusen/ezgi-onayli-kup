@@ -6,7 +6,6 @@ import {
   Video, Users, Star, CheckCircle, ShieldCheck, ClipboardCheck, TrendingUp, Calendar
 } from 'lucide-react';
 import ezgiPortrait from '../assets/ezgi-portrait-new.jpg';
-import lemonMark from '../assets/lemon-mark.svg';
 import faceToFace from '../assets/face-to-face.png';
 import onlineConsulting from '../assets/online-consulting.png';
 import instaProfile from '../assets/insta-profile.png';
@@ -97,7 +96,12 @@ export const Home: React.FC = () => {
             {/* Centered Brand Header (Mobile & Desktop) */}
             <div className="hero-centered-brand text-center mb-6">
               <div className="hero-lemon-icon-mark mb-2">
-                <img src={lemonMark} alt="Diyetisyen Ezgi Onaylı Küp Logosu" className="hero-lemon-img" />
+                <svg width="24" height="24" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+                  <path d="M22 6 C12 6 8 16 8 24 C8 32 15 38 22 38 C29 38 36 32 36 24 C36 16 32 6 22 6Z" fill="#E5C564" opacity="0.9" />
+                  <path d="M22 6 C28 6 32 14 30 22 C28 30 22 36 16 34 C20 30 24 22 22 6Z" fill="#F7E9B0" opacity="0.8" />
+                  <path d="M22 6 C20 2 16 2 14 4 C16 8 18 10 22 6Z" fill="#67826B" />
+                  <path d="M22 6 C24 3 28 2 30 4 C28 8 26 10 22 6Z" fill="#4D6651" />
+                </svg>
               </div>
               <p className="hero-brand-subtitle">D İ Y E T İ S Y E N</p>
               <h1 className="hero-brand-title">Ezgi Onaylı Küp</h1>
