@@ -698,10 +698,13 @@ export const Home: React.FC = () => {
 
         .hero-brand-title {
           font-family: 'Alex Brush', cursive;
-          font-size: 4rem;
+          font-size: clamp(2.8rem, 8vw, 4rem);
           color: var(--color-text-dark);
           line-height: 1.15;
-          font-weight: 400;
+          font-weight: 300;
+          white-space: nowrap;
+          letter-spacing: 0.01em;
+          -webkit-font-smoothing: antialiased;
         }
 
         .hero-brand-divider {
@@ -1725,6 +1728,11 @@ export const Home: React.FC = () => {
         }
 
         @media (max-width: 640px) {
+          .hero-brand-title {
+            font-size: clamp(2.3rem, 7.8vw, 3.2rem);
+            font-weight: 300;
+            white-space: nowrap;
+          }
           .hero__title { font-size: var(--text-4xl); }
           .blog-preview-grid { grid-template-columns: 1fr; }
           .services-grid { grid-template-columns: 1fr; }
