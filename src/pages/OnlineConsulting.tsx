@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { CheckCircle, ArrowRight, Clock, MessageCircle, Mail, Send } from 'lucide-react';
+import { CheckCircle, Clock, MessageCircle } from 'lucide-react';
 import onlineConsulting from '../assets/online-consulting.png';
 
 const steps = [
@@ -23,8 +22,7 @@ const included = [
 ];
 
 export const OnlineConsulting: React.FC = () => {
-  const [form, setForm] = useState({ name: '', email: '', phone: '', city: '', message: '' });
-  const [submitted, setSubmitted] = useState(false);
+  const [form, setForm] = useState({ name: '', city: '', message: '' });
 
   useEffect(() => {
     const els = document.querySelectorAll('.reveal');
@@ -40,7 +38,9 @@ export const OnlineConsulting: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    const text = `Merhaba Ezgi Hanım, Online Danışmanlık için web sitenizden ulaşıyorum.\n\n👤 *İsim:* ${form.name || 'Belirtilmedi'}\n📍 *Şehir:* ${form.city || 'Belirtilmedi'}\n💬 *Not:* ${form.message || 'Bilgi almak istiyorum.'}`;
+    const url = `https://wa.me/905542090903?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -123,117 +123,57 @@ export const OnlineConsulting: React.FC = () => {
         <div className="container">
           <div className="online-form-wrapper">
             <div className="section-header reveal">
-              <div className="section-eyebrow">Bilgi Talebi</div>
-              <h2 className="section-title">Başvuru <em>Formu</em></h2>
+              <div className="section-eyebrow">Online Danışmanlık</div>
+              <h2 className="section-title">WhatsApp ile <em>Hızlı Başvuru</em></h2>
               <p className="section-subtitle">
-                Bu form bilgi talebi niteliğindedir; randevu oluşturmaz. 
-                En kısa sürede sizinle iletişime geçilir.
+                Bilgilerinizi girip butona bastığınızda mesajınız WhatsApp üzerinden doğrudan Ezgi Onaylı Küp'e aktarılır.
               </p>
             </div>
 
-            {submitted ? (
-              <div className="form-success reveal">
-                <div className="form-success__icon">✓</div>
-                <h3>Başvurunuz Alındı!</h3>
-                <p>En kısa sürede sizinle iletişime geçeceğim. Teşekkürler!</p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="online-form reveal" noValidate>
-                <div className="grid-2">
-                  <div className="form-group">
-                    <label htmlFor="online-name" className="form-label">Ad Soyad *</label>
-                    <input
-                      id="online-name"
-                      type="text"
-                      className="form-input"
-                      placeholder="Adınız Soyadınız"
-                      value={form.name}
-                      onChange={e => setForm({ ...form, name: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="online-email" className="form-label">E-posta *</label>
-                    <input
-                      id="online-email"
-                      type="email"
-                      className="form-input"
-                      placeholder="ornek@eposta.com"
-                      value={form.email}
-                      onChange={e => setForm({ ...form, email: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="online-phone" className="form-label">Telefon</label>
-                    <input
-                      id="online-phone"
-                      type="tel"
-                      className="form-input"
-                      placeholder="+90 5XX XXX XX XX"
-                      value={form.phone}
-                      onChange={e => setForm({ ...form, phone: e.target.value })}
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="online-city" className="form-label">Şehir</label>
-                    <input
-                      id="online-city"
-                      type="text"
-                      className="form-input"
-                      placeholder="İstanbul, Ankara…"
-                      value={form.city}
-                      onChange={e => setForm({ ...form, city: e.target.value })}
-                    />
-                  </div>
-                </div>
-                <div className="form-group" style={{ marginTop: 'var(--space-4)' }}>
-                  <label htmlFor="online-message" className="form-label">Mesajınız / Beklentileriniz</label>
-                  <textarea
-                    id="online-message"
-                    className="form-textarea"
-                    placeholder="Kendinizi kısaca tanıtın ve online danışmanlık hakkında sorularınızı veya beklentilerinizi paylaşın..."
-                    value={form.message}
-                    onChange={e => setForm({ ...form, message: e.target.value })}
-                    rows={5}
+            <form onSubmit={handleSubmit} className="online-form reveal" noValidate>
+              <div className="grid-2">
+                <div className="form-group">
+                  <label htmlFor="online-name" className="form-label">Adınız Soyadınız *</label>
+                  <input
+                    id="online-name"
+                    type="text"
+                    className="form-input"
+                    placeholder="Adınız Soyadınız"
+                    value={form.name}
+                    onChange={e => setForm({ ...form, name: e.target.value })}
+                    required
                   />
                 </div>
-                <div className="form-disclaimer">
-                  <p>
-                    Kişisel verileriniz yalnızca iletişim amacıyla işlenecek ve üçüncü taraflarla 
-                    paylaşılmayacaktır. Detaylı bilgi için{' '}
-                    <Link to="/kvkk">KVKK Aydınlatma Metni</Link>'ni inceleyebilirsiniz.
-                  </p>
+                <div className="form-group">
+                  <label htmlFor="online-city" className="form-label">Yaşadığınız Şehir</label>
+                  <input
+                    id="online-city"
+                    type="text"
+                    className="form-input"
+                    placeholder="Örn: İstanbul, İzmir, Ankara…"
+                    value={form.city}
+                    onChange={e => setForm({ ...form, city: e.target.value })}
+                  />
                 </div>
-                <button type="submit" className="btn btn-primary btn--lg form-submit" id="online-form-submit">
-                  <Send size={16} />
-                  Bilgi Talebi Gönder
-                </button>
-              </form>
-            )}
+              </div>
 
-            <div className="or-divider reveal">
-              <span>veya doğrudan iletişime geçin</span>
-            </div>
+              <div className="form-group" style={{ marginTop: 'var(--space-4)' }}>
+                <label htmlFor="online-message" className="form-label">Hedefiniz veya Notunuz</label>
+                <textarea
+                  id="online-message"
+                  className="form-textarea"
+                  placeholder="Kilo verme/alma, sağlıklı beslenme, kronik rahatsızlık vb. durumunuzu kısaca yazabilirsiniz..."
+                  value={form.message}
+                  onChange={e => setForm({ ...form, message: e.target.value })}
+                  rows={4}
+                />
+              </div>
 
-            <div className="contact-alternatives reveal">
-              <a href="https://wa.me/905542090903" target="_blank" rel="noopener noreferrer" className="alt-contact" id="online-whatsapp-btn">
-                <MessageCircle size={20} />
-                <div>
-                  <strong>WhatsApp</strong>
-                  <span>Hızlı yanıt için</span>
-                </div>
-                <ArrowRight size={14} />
-              </a>
-              <a href="mailto:dytezgionayli@gmail.com" className="alt-contact" id="online-email-btn">
-                <Mail size={20} />
-                <div>
-                  <strong>E-posta</strong>
-                  <span>dytezgionayli@gmail.com</span>
-                </div>
-                <ArrowRight size={14} />
-              </a>
-            </div>
+              <button type="submit" className="btn btn-primary btn--lg form-submit" id="online-form-submit" style={{ backgroundColor: '#25D366', borderColor: '#25D366', color: '#fff' }}>
+                <MessageCircle size={18} />
+                WhatsApp'ta Başvuruyu Tamamla
+              </button>
+            </form>
           </div>
         </div>
       </section>

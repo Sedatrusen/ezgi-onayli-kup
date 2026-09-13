@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { MapPin, Phone, Mail, MessageCircle, ExternalLink, Send, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, MessageCircle, ExternalLink, Clock } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   const [form, setForm] = useState({
-    name: '', email: '', phone: '', type: '', message: ''
+    name: '', type: 'Online Danışmanlık', message: ''
   });
-  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     const els = document.querySelectorAll('.reveal');
@@ -23,7 +21,9 @@ export const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    const text = `Merhaba Ezgi Hanım, web sitenizden ulaşıyorum.\n\n👤 *İsim:* ${form.name || 'Belirtilmedi'}\n📌 *Konu:* ${form.type}\n💬 *Mesaj:* ${form.message || 'Bilgi almak istiyorum.'}`;
+    const url = `https://wa.me/905542090903?text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -149,95 +149,58 @@ export const Contact: React.FC = () => {
 
           {/* Contact Form */}
           <div className="contact-form-wrapper reveal">
-            <h2 className="contact-form__title">Bilgi Talep Formu</h2>
+            <h2 className="contact-form__title">WhatsApp ile Mesaj Gönderin</h2>
             <p className="contact-form__subtitle">
-              Formu doldurarak bilgi talebinde bulunabilirsiniz. En kısa sürede geri dönüş yapılır.
+              Aşağıdaki formu doldurup gönderdiğinizde mesajınız doğrudan WhatsApp üzerinden Ezgi Onaylı Küp'e iletilecektir.
             </p>
 
-            {submitted ? (
-              <div className="form-success">
-                <div className="form-success__icon">✓</div>
-                <h3>Mesajınız Alındı!</h3>
-                <p>En kısa sürede sizinle iletişime geçeceğim. Teşekkürler!</p>
+            <form onSubmit={handleSubmit} className="contact-form" noValidate>
+              <div className="form-group">
+                <label htmlFor="contact-name" className="form-label">Adınız Soyadınız *</label>
+                <input
+                  id="contact-name"
+                  type="text"
+                  className="form-input"
+                  placeholder="Adınız Soyadınız"
+                  value={form.name}
+                  onChange={e => setForm({ ...form, name: e.target.value })}
+                  required
+                />
               </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="contact-form" noValidate>
-                <div className="grid-2">
-                  <div className="form-group">
-                    <label htmlFor="contact-name" className="form-label">Ad Soyad *</label>
-                    <input
-                      id="contact-name"
-                      type="text"
-                      className="form-input"
-                      placeholder="Adınız Soyadınız"
-                      value={form.name}
-                      onChange={e => setForm({ ...form, name: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="contact-email" className="form-label">E-posta *</label>
-                    <input
-                      id="contact-email"
-                      type="email"
-                      className="form-input"
-                      placeholder="ornek@eposta.com"
-                      value={form.email}
-                      onChange={e => setForm({ ...form, email: e.target.value })}
-                      required
-                    />
-                  </div>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="contact-phone" className="form-label">Telefon</label>
-                  <input
-                    id="contact-phone"
-                    type="tel"
-                    className="form-input"
-                    placeholder="+90 5XX XXX XX XX"
-                    value={form.phone}
-                    onChange={e => setForm({ ...form, phone: e.target.value })}
-                  />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="contact-type" className="form-label">Konu</label>
-                  <select
-                    id="contact-type"
-                    className="form-select"
-                    value={form.type}
-                    onChange={e => setForm({ ...form, type: e.target.value })}
-                  >
-                    <option value="">Konu seçin…</option>
-                    <option value="online">Online Danışmanlık Hakkında Bilgi</option>
-                    <option value="face">Yüz Yüze Danışmanlık Hakkında Bilgi</option>
-                    <option value="akademi">Akademi İçerikleri Hakkında</option>
-                    <option value="other">Diğer</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="contact-message" className="form-label">Mesajınız</label>
-                  <textarea
-                    id="contact-message"
-                    className="form-textarea"
-                    placeholder="Soru ve beklentilerinizi kısaca paylaşın…"
-                    value={form.message}
-                    onChange={e => setForm({ ...form, message: e.target.value })}
-                    rows={5}
-                  />
-                </div>
-                <div className="form-disclaimer">
-                  <p>
-                    * ile işaretli alanlar zorunludur. Kişisel verileriniz yalnızca 
-                    iletişim amacıyla işlenir.{' '}
-                    <Link to="/kvkk">KVKK Aydınlatma Metni</Link>'ni inceleyebilirsiniz.
-                  </p>
-                </div>
-                <button type="submit" className="btn btn-primary btn--lg" id="contact-form-submit">
-                  <Send size={16} />
-                  Mesaj Gönder
-                </button>
-              </form>
-            )}
+
+              <div className="form-group">
+                <label htmlFor="contact-type" className="form-label">Danışmanlık / Konu Türü</label>
+                <select
+                  id="contact-type"
+                  className="form-select"
+                  value={form.type}
+                  onChange={e => setForm({ ...form, type: e.target.value })}
+                >
+                  <option value="Online Danışmanlık">Online Danışmanlık</option>
+                  <option value="Yüz Yüze Danışmanlık (Yalova)">Yüz Yüze Danışmanlık (Yalova)</option>
+                  <option value="Kilo Yönetimi & Beslenme">Kilo Yönetimi & Beslenme</option>
+                  <option value="Akademi İçerikleri">Akademi İçerikleri</option>
+                  <option value="Diğer Sorular">Diğer Sorular</option>
+                </select>
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="contact-message" className="form-label">Mesajınız / Notunuz</label>
+                <textarea
+                  id="contact-message"
+                  className="form-textarea"
+                  placeholder="Hedeflerinizden, sormak istediklerinizden veya randevu talebinizden bahsedin..."
+                  value={form.message}
+                  onChange={e => setForm({ ...form, message: e.target.value })}
+                  rows={4}
+                />
+              </div>
+
+              <button type="submit" className="btn btn-primary btn--lg" id="contact-form-submit" style={{ backgroundColor: '#25D366', borderColor: '#25D366', color: '#fff' }}>
+                <MessageCircle size={18} />
+                WhatsApp'ta Sohbeti Başlat
+              </button>
+            </form>
           </div>
         </div>
       </section>
