@@ -75,7 +75,13 @@ export const Home: React.FC = () => {
           "jobTitle": "Diyetisyen",
           "url": "https://ezgionaylikup.com",
           "description": "Yeme davranışında beden ve zihin bütünlüğü.",
-          "address": { "@type": "PostalAddress", "addressLocality": "Yalova", "addressCountry": "TR" }
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)",
+            "addressLocality": "Yalova",
+            "addressCountry": "TR"
+          },
+          "telephone": "+905542090903"
         })}</script>
       </Helmet>
 
@@ -364,7 +370,7 @@ export const Home: React.FC = () => {
                 <div className="program-card__divider" />
 
                 <a
-                  href="https://wa.me/905XXXXXXXXX"
+                  href="https://wa.me/905542090903"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`btn w-full justify-center ${pkg.popular ? 'btn-primary' : 'btn-secondary'}`}
@@ -566,7 +572,7 @@ export const Home: React.FC = () => {
             </div>
             <div className="contact-cta__actions">
               <a
-                href="https://wa.me/905XXXXXXXXX"
+                href="https://wa.me/905542090903"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary btn--lg"

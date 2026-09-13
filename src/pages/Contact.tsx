@@ -36,7 +36,13 @@ export const Contact: React.FC = () => {
           "@type": "MedicalBusiness",
           "name": "Diyetisyen Ezgi Onaylı Küp",
           "description": "Beslenme danışmanlığı — yüz yüze ve online",
-          "address": { "@type": "PostalAddress", "addressLocality": "Yalova", "addressCountry": "TR" },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)",
+            "addressLocality": "Yalova",
+            "addressCountry": "TR"
+          },
+          "telephone": "+905542090903",
           "email": "dytezgionayli@gmail.com",
           "url": "https://ezgionaylikup.com"
         })}</script>
@@ -44,19 +50,16 @@ export const Contact: React.FC = () => {
 
       <header className="page-header">
         <div className="container">
-          <p className="page-header__eyebrow animate-fade-up">İletişim</p>
-          <h1 className="page-header__title animate-fade-up animate-fade-up-delay-1">
-            Benimle<br />
-            <span style={{ color: 'var(--color-aqua-dark)', fontStyle: 'italic' }}>iletişime geç</span>
-          </h1>
-          <p className="page-header__subtitle animate-fade-up animate-fade-up-delay-2">
-            Yüz yüze veya online danışmanlık hakkında soru sormak, 
-            bilgi talep etmek veya herhangi bir konuda ulaşmak için.
+          <span className="badge badge-olive mb-3">İletişim & Randevu</span>
+          <h1 className="page-header__title">Gelin, Birlikte Başlayalım</h1>
+          <p className="page-header__lead">
+            Sağlıklı bir beslenme alışkanlığı edinmek için ilk adımı atın. 
+            Aşağıdaki kanallardan dilediğinizi seçebilirsiniz.
           </p>
         </div>
       </header>
 
-      <section className="section bg-white" aria-label="İletişim bilgileri ve form">
+      <section className="section" aria-label="İletişim formu ve bilgileri">
         <div className="container contact-layout">
 
           {/* Contact Info */}
@@ -65,7 +68,7 @@ export const Contact: React.FC = () => {
             
             <div className="contact-methods">
               <a
-                href="https://wa.me/905XXXXXXXXX"
+                href="https://wa.me/905542090903"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-method contact-method--whatsapp"
@@ -80,13 +83,13 @@ export const Contact: React.FC = () => {
                 </div>
               </a>
 
-              <a href="tel:+905XXXXXXXXX" className="contact-method" id="contact-phone">
+              <a href="tel:+905542090903" className="contact-method" id="contact-phone">
                 <div className="contact-method__icon">
                   <Phone size={22} />
                 </div>
                 <div>
                   <strong>Telefon</strong>
-                  <span>+90 (5XX) XXX XX XX</span>
+                  <span>+90 (554) 209 09 03</span>
                 </div>
               </a>
 
@@ -123,8 +126,8 @@ export const Contact: React.FC = () => {
                 Klinik Bilgileri
               </h3>
               <p className="clinic-info__address">
-                Yalova<br />
-                <small>(Adres bilgisi yakında eklenecek)</small>
+                Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)<br />
+                Yalova
               </p>
               <div className="clinic-hours">
                 <Clock size={14} />

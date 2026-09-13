@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# Diyetisyen Ezgi Onaylı Küp — Web Sitesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Diyetisyen Ezgi Onaylı Küp için geliştirilmiş resmi web sitesi. React, TypeScript ve Vite ile geliştirilmiştir.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Projeyi Çalıştırma (Development)
 
-## React Compiler
+Projeyi yerel ortamınızda ayağa kaldırmak için aşağıdaki adımları izleyin:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### 1. Bağımlılıkları Yükleyin (İlk Kurulum)
+Projeyi ilk kez indirdiyseniz veya yeni paketler eklendiyse:
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Geliştirme Sunucusunu Başlatın
+Lokal geliştirme sunucusunu çalıştırmak için:
+```bash
+npm run dev
+```
+
+> 💡 Tarayıcınızda açmak için terminalde çıkan adrese (genellikle `http://localhost:5173`) gidebilirsiniz.
+
+---
+
+## 🛠️ Kullanılabilir Komutlar (Scripts)
+
+| Komut | Açıklama |
+| :--- | :--- |
+| `npm run dev` | Geliştirme sunucusunu başlatır (Vite HMR ile anlık yenileme). |
+| `npm run build` | TypeScript tip kontrollerini yapar ve üretim (production) derlemesini `dist/` klasörüne oluşturur. |
+| `npm run preview` | Oluşturulan üretim derlemesini (`dist/`) yerel sunucuda test eder. |
+| `npm run lint` | Oxlint ile kod kalitesi ve stil kontrollerini çalıştırır. |
+| `npm run deploy` | GitHub Pages üzerine derleyip canlıya alır (`gh-pages -d dist`). |
+
+---
+
+## 📦 Kullanılan Teknolojiler
+
+- **Frontend:** React 19 + TypeScript
+- **Derleyici / Build Tool:** Vite
+- **Yönlendirme (Routing):** React Router DOM v7
+- **SEO & Head:** React Helmet Async
+- **İkonlar:** Lucide React
+- **Linter:** Oxlint

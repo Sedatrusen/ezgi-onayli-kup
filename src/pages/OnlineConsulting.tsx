@@ -217,7 +217,7 @@ export const OnlineConsulting: React.FC = () => {
             </div>
 
             <div className="contact-alternatives reveal">
-              <a href="https://wa.me/905XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="alt-contact" id="online-whatsapp-btn">
+              <a href="https://wa.me/905542090903" target="_blank" rel="noopener noreferrer" className="alt-contact" id="online-whatsapp-btn">
                 <MessageCircle size={20} />
                 <div>
                   <strong>WhatsApp</strong>

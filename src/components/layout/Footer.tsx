@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
                 <ExternalLink size={18} />
               </a>
               <a
-                href="https://wa.me/905XXXXXXXXX"
+                href="https://wa.me/905542090903"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__social-link"
@@ -74,11 +74,11 @@ export const Footer: React.FC = () => {
             <ul className="footer__contact">
               <li>
                 <MapPin size={15} aria-hidden="true" />
-                <span>Yalova Klinik Adresi<br /><small>Yakında eklenecek</small></span>
+                <span>Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)<br /><small>Yalova</small></span>
               </li>
               <li>
                 <Phone size={15} aria-hidden="true" />
-                <a href="tel:+905XXXXXXXXX">+90 (5XX) XXX XX XX</a>
+                <a href="tel:+905542090903">+90 (554) 209 09 03</a>
               </li>
               <li>
                 <Mail size={15} aria-hidden="true" />
@@ -86,7 +86,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <MessageCircle size={15} aria-hidden="true" />
-                <a href="https://wa.me/905XXXXXXXXX" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/905542090903" target="_blank" rel="noopener noreferrer">
                   WhatsApp ile ulaşın
                 </a>
               </li>
