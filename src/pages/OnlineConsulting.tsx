@@ -38,8 +38,15 @@ export const OnlineConsulting: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Merhaba Ezgi Hanım, Online Danışmanlık için web sitenizden ulaşıyorum.\n\n👤 *İsim:* ${form.name || 'Belirtilmedi'}\n📍 *Şehir:* ${form.city || 'Belirtilmedi'}\n💬 *Not:* ${form.message || 'Bilgi almak istiyorum.'}`;
-    const url = `https://wa.me/905542090903?text=${encodeURIComponent(text)}`;
+    const lines = [
+      'Merhaba Ezgi Hanım, Online Danışmanlık için web sitenizden ulaşıyorum.',
+      '',
+      `*İsim:* ${form.name.trim() || 'Belirtilmedi'}`,
+      `*Şehir:* ${form.city.trim() || 'Belirtilmedi'}`,
+      `*Not:* ${form.message.trim() || 'Online danışmanlık hakkında bilgi ve randevu almak istiyorum.'}`
+    ];
+    const text = lines.join('\n');
+    const url = `https://api.whatsapp.com/send?phone=905542090903&text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 

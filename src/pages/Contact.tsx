@@ -21,8 +21,15 @@ export const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Merhaba Ezgi Hanım, web sitenizden ulaşıyorum.\n\n👤 *İsim:* ${form.name || 'Belirtilmedi'}\n📌 *Konu:* ${form.type}\n💬 *Mesaj:* ${form.message || 'Bilgi almak istiyorum.'}`;
-    const url = `https://wa.me/905542090903?text=${encodeURIComponent(text)}`;
+    const lines = [
+      'Merhaba Ezgi Hanım, web sitenizden ulaşıyorum.',
+      '',
+      `*İsim:* ${form.name.trim() || 'Belirtilmedi'}`,
+      `*Konu:* ${form.type}`,
+      `*Mesaj:* ${form.message.trim() || 'Bilgi almak istiyorum.'}`
+    ];
+    const text = lines.join('\n');
+    const url = `https://api.whatsapp.com/send?phone=905542090903&text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
