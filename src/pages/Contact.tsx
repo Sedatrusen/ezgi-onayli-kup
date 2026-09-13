@@ -132,10 +132,17 @@ export const Contact: React.FC = () => {
                 <MapPin size={16} />
                 Klinik Bilgileri
               </h3>
-              <p className="clinic-info__address">
+              <a
+                href="https://maps.google.com/?q=Ba%C4%9Flarba%C5%9F%C4%B1+Mahallesi+Ba%C5%9F%C3%A7%C4%B1lar+Sokak+No:1+Life+226+Yalova"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="clinic-info__address clinic-info__address--link"
+                title="Google Haritalar'da aç"
+              >
                 Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)<br />
                 Yalova
-              </p>
+                <span className="clinic-info__map-hint">Haritada Göster ↗</span>
+              </a>
               <div className="clinic-hours">
                 <Clock size={14} />
                 <div>
@@ -321,15 +328,25 @@ export const Contact: React.FC = () => {
         .clinic-info__title svg { color: var(--color-aqua); }
 
         .clinic-info__address {
+          display: block;
           font-size: var(--text-base);
           color: var(--color-text-mid);
           line-height: 1.65;
           margin-bottom: var(--space-4);
+          text-decoration: none;
+          transition: color var(--transition-fast);
         }
 
-        .clinic-info__address small {
-          color: var(--color-text-light);
+        .clinic-info__address--link:hover {
+          color: var(--color-aqua-dark);
+        }
+
+        .clinic-info__map-hint {
+          display: block;
+          margin-top: 4px;
           font-size: var(--text-xs);
+          color: var(--color-aqua);
+          font-weight: 600;
         }
 
         .clinic-hours {

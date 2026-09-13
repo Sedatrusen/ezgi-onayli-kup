@@ -74,7 +74,14 @@ export const Footer: React.FC = () => {
             <ul className="footer__contact">
               <li>
                 <MapPin size={15} aria-hidden="true" />
-                <span>Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)<br /><small>Yalova</small></span>
+                <a
+                  href="https://maps.google.com/?q=Ba%C4%9Flarba%C5%9F%C4%B1+Mahallesi+Ba%C5%9F%C3%A7%C4%B1lar+Sokak+No:1+Life+226+Yalova"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Google Haritalar'da aç"
+                >
+                  Bağlarbaşı Mah. Başçılar Sok. No:1 Daire:9 (Life 226)<br /><small>Yalova (Haritada Aç ↗)</small>
+                </a>
               </li>
               <li>
                 <Phone size={15} aria-hidden="true" />
